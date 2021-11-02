@@ -56,3 +56,42 @@ nav ul li a {
 	background-color: rgb(255, 0, 0);
 	border-radius: 50rem;
 }
+.heading-div
+{
+	display: flex;
+	flex-direction: row;
+	border: 2px solid rgba(0, 0, 0, 0.336);
+	height: 20rem;
+}
+.heading-left-div
+{
+	width: 40%;
+}
+.heading-right-div
+{
+	width: 40%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.heading-right-div img
+{
+	position: absolute;
+}
+.heading-right-div .dot1
+{
+	top: 0rem;
+}
+.heading-right-div .image1
+{
+	/* top: 1.5rem; */
+	width: 70%;
+	left: 40%;
+}
+.heading-right-div .dot2
+{
+	top: 11rem;
+	left: 30rem;
+}
