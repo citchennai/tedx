@@ -25,6 +25,7 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   width: 25%;
+  list-style-type: none;
 }
 
 nav ul li a {
