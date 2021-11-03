@@ -5,15 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>TED&#x02E3; - COUNTDOWN</title>
-		<link rel="stylesheet" href="./CSS/nav.css" />
-		<link rel="stylesheet" href="./CSS/home.css" />
+		<link rel="stylesheet" href="./public/CSS/nav.css" />
+		<link rel="stylesheet" href="./public/CSS/home.css" />
 	</head>
 
 	<body>
 		<!-- NAVBAR -->
 
 		<nav>
-			<a href=""><img src="./images/tedx.png" alt="tedx" /></a>
+			<a href=""><img src="./public/images/tedx.png" alt="tedx" /></a>
 			<ul>
 				<li><a href="/">HOME</a></li>
 				<li><a href="./views/about.html">ABOUT</a></li>
@@ -26,31 +26,31 @@
 
 		<section class="hero">
 			<div class="top-left">
-				<div class="large"></div>
-				<div class="small"></div>
+				<div class="large" data-speed="3"></div>
+				<div class="small" data-speed="5"></div>
 			</div>
 			<div class="top-right">
-				<div class="large"></div>
-				<div class="small"></div>
+				<div class="large" data-speed="3"></div>
+				<div class="small" data-speed="5"></div>
 			</div>
 			<div class="center-hero">
 				<div><span>X</span> = Independently organized TED event</div>
 			</div>
 			<div class="bottom">
 				<div class="bottom-left">
-					<div class="large"></div>
-					<div class="small"></div>
+					<div class="large" data-speed="3"></div>
+					<div class="small" data-speed="5"></div>
 				</div>
 				<div class="bottom-left-2">
-					<div class="large"></div>
+					<div class="large" data-speed="3"></div>
 				</div>
 				<div class="bottom-right">
-					<div class="large"></div>
-					<div class="small"></div>
+					<div class="large" data-speed="3"></div>
+					<div class="small" data-speed="5"></div>
 				</div>
 				<div class="bottom-right-2">
-					<div class="large"></div>
-					<div class="small"></div>
+					<div class="large" data-speed="3"></div>
+					<div class="small" data-speed="5"></div>
 				</div>
 			</div>
 		</section>
@@ -135,10 +135,10 @@
 		<!-- PAST -->
 
 		<section class="past">
-			<img src="./images/past_red_dots.png" alt="" />
-			<img src="./images/past_black_dots.png" alt="" />
-			<img src="./images/past_red_dots.png" alt="" />
-			<img src="./images/past_black_dots.png" alt="" />
+			<img src="./public/images/past_red_dots.png" alt="" />
+			<img src="./public/images/past_black_dots.png" alt="" />
+			<img src="./public/images/past_red_dots.png" alt="" />
+			<img src="./public/images/past_black_dots.png" alt="" />
 			<div class="left">
 				<h1>THE <span>PAST</span></h1>
 				<p>
@@ -160,13 +160,13 @@
 				<span>TED<sup>X</sup></span
 				><span>COOL HEADING</span>
 			</div>
-			<img src="./images/event_type_dots.png" alt="" />
-			<img src="./images/event_type_dots.png" alt="" />
+			<img src="./public/images/event_type_dots.png" alt="" />
+			<img src="./public/images/event_type_dots.png" alt="" />
 			<div class="left">
-				<img src="./images/past_img1.png" alt="" />
+				<img src="./public/images/past_img1.png" alt="" />
 				<span>
-					<img src="./images/past_img1.png" alt="" />
-					<img src="./images/past_img1.png" alt="" />
+					<img src="./public/images/past_img1.png" alt="" />
+					<img src="./public/images/past_img1.png" alt="" />
 				</span>
 			</div>
 			<div class="right">
@@ -185,8 +185,8 @@
 				</p>
 				<a href="/">VIEW</a>
 			</div>
-			<img src="./images/event_type_dots.png" alt="" />
-			<img src="./images/event_type_dots.png" alt="" />
+			<img src="./public/images/event_type_dots.png" alt="" />
+			<img src="./public/images/event_type_dots.png" alt="" />
 		</section>
 
 		<!-- FOOTER -->
@@ -234,8 +234,24 @@
 					<li>Instagram</li>
 					<li>Twitter</li>
 				</ul>
-				<p>@Chennai India, Inc. All rights reserved    /    Privacy    /    Contact    /    Press</p>
+				<p>
+					@Chennai India, Inc. All rights reserved / Privacy / Contact / Press
+				</p>
 			</div>
 		</footer>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+			integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js"
+			integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="./public/JS/index.js"></script>
 	</body>
 </html>
