@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+
+  .container {
+      background-color: black;
+  }
+
+  .title {
+        text-align: left;
+        color: red;
+        font-size: 9rem;
+        font-weight: bold;
+        margin: 8rem 0rem 0rem 8rem;
+        position: relative;
+        
+        
+        
+        
+  }
+
+  .up {
+      color: white;
+  }
+  .border {
+    padding-bottom: .5rem;
+    border-bottom: 5px solid white;
+  }
+  .para1 {
+    text-align: left;
+    color: white;
+    font-size: 2.2rem;
+    margin: 3rem 8rem;
+    width: 60%;
+    position: relative;
+  }
+
+  .contactBox {
+      position: relative;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      border: 5px solid red;
+  }
+
+  .details {
+      position: relative;
+      font-size: 4rem;
+      color: white;
+      text-align:center;
+      margin: 2rem 0rem;
+  }
+  form label {
+      color: white;
+      font-size: 2.2rem;
+      margin: .5rem 0rem;
+  }
+  form input {
+      background-color: #1D1D1D;
+      border: 3px solid white;
+      height: 50px;
+      width: 90%;
+  }
+  .inputBox {
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      margin: 2rem 0rem;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      
+  }
+  .inputBox p {
+      color: white;
+  }
+  .nameMain {
+      display: flex;
+  }
+
+  .location {
+      font-size: 4rem;
+      color: white;
+      text-align: center;
+      margin: 4rem 0rem;
+  }
+  form p {
+      color: white;
+      font-size: 1.7rem;
+      width: 90%;
+      text-align: justify;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+  }
+.inputBox2 {
+    display: flex;
+    width: 80%;
+      margin: 2rem 0rem;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+}
+.checkContent {
+    font-size: 1.5rem;
+  }
+
+.check {
+    width:5%;
+    height:30px ;
+    margin:1rem;
+}
+.submit {
+    background: linear-gradient(#FF8A8A,#C9BAFF);
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding:.5rem 2rem;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5PX;
+    border: none;
+    margin-bottom: 3rem;
+
+}
+
+
+
+.titleAttend {
+    text-align: center;
+    position: relative;
+    font-size: 4rem;
+    color: red;
+    margin: 6rem 0rem 3rem 0rem;
+}   
+
+.optionsFlex {
+    display: flex;
+    
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.option1 , .option2 {
+    width: 40%;
+    background: white;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.option1 h3 , .option2 h3 {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+    border-bottom: 15px solid black;
+    padding-bottom: 1rem ;
+    margin: 1rem 0rem;
+    
+}
+.option1 p , .option2 p {
+    text-align: justify;
+    width: 80%;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.register {
+    background: linear-gradient(#FF8A8A,#C9BAFF);
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    padding:.5rem 2rem;
+    position: relative;
+
+    border-radius: 5PX;
+    border: none;
+    margin: 2rem 0rem;
+}
+/* merch */
+
+.merch {
+    position: relative;
+    width: 100%;
+    background: white;
+}
+
+.merchTitle {
+    text-align: center;
+    position: relative;
+    font-size: 6rem;
+    color: black;
+    margin: 4rem 0rem;
+}
