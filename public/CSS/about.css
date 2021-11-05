@@ -243,6 +243,34 @@ nav ul li a {
   bottom: -8%;
   right: 8%;
 }
+.three-dot-img-1
+{
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  left: 12%;
+}
+.three-dot-img-2
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 4%;
+  left: 12%;
+}
+.three-dot-img-3
+{
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  right: 12%;
+}
+.three-dot-img-4
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 4%;
+  right: 12%;
+}
 
 .second-mission-main {
   display: flex;
@@ -251,6 +279,7 @@ nav ul li a {
   height: 85vh;
   padding: 0% 5%;
 }
+
 .second-mission {
   width: 50%;
   position: relative;
@@ -363,7 +392,7 @@ nav ul li a {
 
 .presents-our-speakers h4 {
   font-size: 3rem;
-  margin-top: 4rem;
+  margin-top: 2rem;
   width: 30%;
   text-align: center;
   font-weight: 600;
@@ -422,8 +451,31 @@ nav ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 8%;
+  margin-top: 4%;
 }
+.three-dots-div-start
+{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.three-dots-div
+{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+
+
 .event-organizers-content {
   position: relative;
   width: 50%;
@@ -431,7 +483,7 @@ nav ul li a {
 }
 
 .event-organizers-h1 {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 500;
 }
 .event-organizers h1 span {
@@ -551,6 +603,15 @@ nav ul li a {
   }
   .event-organizers-content
   {
-    width: 57%;
+    width: 70%;
+  }
+  .image-organizer
+  {
+    margin-top: 15%;
+  }
+  .line7
+  {
+    margin: 16% 0% 0% 4%;
+    height: 11rem;
   }
 }
