@@ -222,7 +222,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 .section-3h1 span {
@@ -252,8 +252,36 @@
   height: 90%;
   width: 70%;
   border-radius: 10px;
-  background: #000;
+  background: url('../images/textimg1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 40px;
+  overflow: hidden;
 }
+
+.girdbox p{
+    position: relative;
+    top: 80%;
+    left: 3%;
+    font-weight: bolder;
+    font-size: 1.2em;
+    color: white;
+    /* transform: translateY(100%); */
+
+}
+
+.rotate{
+    position: absolute;
+    height: 100%;
+    width: 139%;
+    background: rgba(15, 15, 15, 0.747);
+    transform: rotate(14deg);
+    left: -43%;
+    bottom: -67%;
+}
+
+
 
 .gridbox-1 {
   grid-area: gridbox1;
@@ -303,11 +331,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 45px;
 }
 
 .section-4span span {
   color: red;
+}
+
+.section-4span h1{
+    margin: 0% 3%;
 }
 
 .section-4div {
