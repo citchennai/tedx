@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+:root {
+  --heading: rgb(255, 0, 0);
+  --paragraph: rgba(0, 0, 0, 0.589);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -35,10 +40,10 @@ nav ul li a {
   margin: 10px;
 }
 .second-nav ul li a:hover {
-  color: rgb(255, 0, 0);
+  color: var(--heading);
 }
 .second-nav ul li a:active {
-  color: rgb(255, 0, 0);
+  color: var(--heading);
 }
 
 /* mission */
@@ -57,7 +62,7 @@ nav ul li a {
   width: 6px;
   height: 8rem;
   margin: 6% 0% 0% 7%;
-  background-color: rgb(255, 0, 0);
+  background-color: var(--heading);
   border-radius: 50rem;
 }
 .line2 {
@@ -65,24 +70,24 @@ nav ul li a {
   width: 6px;
   height: 20rem;
   margin: -30% 0% 7% 7%;
-  background-color: rgb(255, 0, 0);
+  background-color: var(--heading);
   border-radius: 50rem;
 }
 .line3 {
-	position: absolute;
-	width: 6px;
-	height: 15rem;
-	margin: -20% 0% 7% 7%;
-	background-color: rgb(255, 0, 0);
-	border-radius: 50rem;
+  position: absolute;
+  width: 6px;
+  height: 13rem;
+  margin: -16% 0% 7% 7%;
+  background-color: var(--heading);
+  border-radius: 50rem;
 }
 .line4 {
-	position: absolute;
-	width: 6px;
-	height: 20rem;
-	margin: -30% 0% 7% 7%;
-	background-color: rgb(255, 0, 0);
-	border-radius: 50rem;
+  position: absolute;
+  width: 6px;
+  height: 20rem;
+  margin: -30% 0% 7% 7%;
+  background-color: var(--heading);
+  border-radius: 50rem;
 }
 .heading-div {
   display: flex;
@@ -93,32 +98,31 @@ nav ul li a {
   margin: 18% 0%;
 }
 
-.heading-first-div
-{
-	margin: 10% 0% 18% 0%;
+.heading-first-div {
+  margin: 10% 0% 18% 0%;
 }
 
 .heading {
-  color: red;
+  color: var(--heading);
   font-size: 57px;
   font-family: "Encode Sans", sans-serif;
 }
 .heading-left-div {
   position: relative;
-  width: 35%;
-  left: 2%;
+  width: 30%;
+  left: 1%;
 }
 
 .left-div-paragraph {
   font-size: 20px;
-  color: rgba(0, 0, 0, 0.589);
+  color: var(--paragraph);
   margin-top: 2%;
   width: 90%;
 }
 
 .heading-right-div {
   width: 45%;
-  left: 2%;
+  left: 1%;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -151,13 +155,463 @@ nav ul li a {
   position: absolute;
   top: 6rem;
   width: 67%;
-  left: 15rem;
+  left: 18rem;
   font-size: 1.5rem;
   font-family: "Encode Sans", sans-serif;
   color: white;
-  background-color: rgba(0, 0, 0, 0.671);
+  background-color: var(--paragraph);
   padding: 2%;
-  border: 5px solid rgb(255, 0, 0);
+  border: 5px solid var(--heading);
   border-radius: 10px;
   z-index: 3;
+}
+
+.second-heading-div .heading-right-div {
+  left: 5%;
+}
+
+.paragraph-on-image-left {
+  top: 9rem;
+  left: -10rem;
+  position: absolute;
+  width: 67%;
+  font-size: 1.5rem;
+  font-family: "Encode Sans", sans-serif;
+  color: white;
+  background-color: var(--paragraph);
+  padding: 2%;
+  border: 5px solid var(--heading);
+  border-radius: 10px;
+  z-index: 3;
+}
+
+.our-mission-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.our-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission-image {
+  z-index: 2;
+}
+
+.our-mission-div {
+  position: relative;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  z-index: 10;
+}
+
+.our-mission-div h1 {
+  font-size: 4rem;
+  border-bottom: 7px solid var(--heading);
+}
+
+.dot {
+  position: absolute;
+  z-index: -1;
+}
+.dot-mission-1 {
+  top: -8%;
+  left: 8%;
+}
+.dot-mission-2 {
+  top: -8%;
+  right: 8%;
+}
+.dot-mission-3 {
+  bottom: -8%;
+  left: 8%;
+}
+.dot-mission-4 {
+  bottom: -8%;
+  right: 8%;
+}
+.three-dot-img-1
+{
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  left: 12%;
+}
+.three-dot-img-2
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 4%;
+  left: 12%;
+}
+.three-dot-img-3
+{
+  position: absolute;
+  z-index: 10;
+  top: 4%;
+  right: 12%;
+}
+.three-dot-img-4
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 4%;
+  right: 12%;
+}
+
+.second-mission-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 85vh;
+  padding: 0% 5%;
+}
+
+.second-mission {
+  width: 50%;
+  position: relative;
+}
+.second-mission-content {
+  position: relative;
+  left: 4%;
+  width: 80%;
+}
+
+.second-mission h1 {
+  font-size: 4rem;
+  color: var(--heading);
+}
+.second-mission p {
+  font-size: 1.3rem;
+  color: var(--paragraph);
+}
+
+.paragraph-mission {
+  margin: 7% 7%;
+  font-size: 1.3rem;
+}
+.image-border-right {
+  position: relative;
+  width: 50%;
+  right: 0;
+}
+.image-border-dot1 {
+  position: absolute;
+  top: -6%;
+  left: 25%;
+}
+.image-border-dot2 {
+  position: absolute;
+  top: 50%;
+  right: -5%;
+}
+.image-border1 {
+  position: absolute;
+  border: 10px solid black;
+  width: 50%;
+  height: 20rem;
+  right: 20%;
+}
+.image-border2 {
+  position: absolute;
+  border: 10px solid black;
+  width: 45%;
+  height: 15rem;
+  right: 0;
+  top: 30%;
+}
+.line5 {
+  width: 6px;
+  height: 20rem;
+  background-color: var(--heading);
+  border-radius: 50rem;
+  margin: 3% 0% 7% 5%;
+}
+
+.second-mission-main2 .image-border-right {
+  right: 10%;
+}
+.lastHeading {
+  position: relative;
+  top: 15%;
+}
+.line6 {
+  width: 6px;
+  height: 14rem;
+  background-color: var(--heading);
+  border-radius: 50rem;
+  margin: 70% 0% 0% 25%;
+  position: absolute;
+}
+.line7 {
+  width: 6px;
+  height: 15rem;
+  background-color: var(--heading);
+  border-radius: 50rem;
+  margin: 20% 0% 0% 4%;
+  position: absolute;
+}
+
+.title-black-background {
+  width: 100%;
+  height: 40vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.title-black-background img {
+  position: relative;
+  width: 20%;
+}
+.title-black-background p {
+  font-size: 5rem;
+  width: 50%;
+}
+.presents-our-speakers {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.presents-our-speakers h4 {
+  font-size: 3rem;
+  margin-top: 2rem;
+  width: 30%;
+  text-align: center;
+  font-weight: 600;
+  color: rgb(32, 32, 32);
+}
+.presents-our-speakers h4 span {
+  color: var(--heading);
+}
+.presents {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.presents p {
+  width: 80%;
+  padding-left: 10px;
+  font-size: 1.3rem;
+  border-left: 8px solid black;
+  text-align: center;
+  /* border-radius: 10px; */
+}
+
+.images-speakers-main-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  left: 8%;
+}
+
+.image-speaker {
+  position: relative;
+  width: 75%;
+  height: 22rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.507);
+  margin-top: 5%;
+  background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+}
+.image-speaker-content {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: fit-content;
+  top: 75%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+.event-organizers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+}
+.three-dots-div-start
+{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.three-dots-div
+{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4%;
+}
+
+
+.event-organizers-content {
+  position: relative;
+  width: 50%;
+  /* left: 5%; */
+}
+
+.event-organizers-h1 {
+  font-size: 6rem;
+  font-weight: 500;
+}
+.event-organizers h1 span {
+  color: var(--heading);
+}
+
+.event-organizers p {
+  margin-top: 4%;
+  text-align: center;
+  width: 100%;
+}
+.all-image-organizers {
+  width: 90%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  left: 5%;
+}
+.image-organizer {
+  width: 75%;
+  height: 25rem;
+  box-shadow: 4px 4px 4px rgba(73, 73, 73, 0.527);
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+}
+.img-organizer {
+  position: relative;
+  background-color: blue;
+  height: 13rem;
+  width: 65%;
+  bottom: 6%;
+  z-index: 5;
+}
+.red-div {
+  position: absolute;
+  background-color: red;
+  height: 4rem;
+  width: 23%;
+  top: -4%;
+  right: 5%;
+  z-index: 2;
+}
+.grey-div {
+  position: absolute;
+  background-color: rgb(56, 56, 56);
+  height: 4rem;
+  width: 30%;
+  top: 50%;
+  right: 13%;
+  z-index: 2;
+}
+.ted-absolute {
+  position: absolute;
+  z-index: 6;
+  font-size: 4rem;
+  left: 10%;
+  top: 43%;
+  color: var(--heading);
+}
+.x-absolute {
+  position: absolute;
+  z-index: 6;
+  font-size: 4rem;
+  left: -2%;
+  top: 30%;
+}
+.image-organizer-content {
+  text-align: center;
+  padding-top: 10%;
+}
+
+@media (min-width: 1349px) {
+  .heading-right-div .paragraph-on-image {
+    left: 16rem;
+  }
+  .line2 {
+    height: 18rem;
+    margin: -28% 0% 7% 7%;
+  }
+  .paragraph-on-image-left {
+    left: -8rem;
+  }
+  .line3 {
+    height: 15rem;
+    margin: -20% 0% 7% 7%;
+  }
+  .line4 {
+    height: 20rem;
+    margin: -29% 0% 7% 7%;
+  }
+  .line5 {
+    height: 13rem;
+  }
+  .line6 {
+    height: 11rem;
+  }
+  .title-black-background p
+  {
+    width: 60%;
+  }
+  .title-black-background
+  {
+    height: 50vh;
+  }
+  .image-speaker
+  {
+    margin-top: 15%;
+  }
+  .image-speaker-content
+  {
+    height: fit-content;
+    top: 68%;
+  }
+  .event-organizers-content
+  {
+    width: 70%;
+  }
+  .image-organizer
+  {
+    margin-top: 15%;
+  }
+  .line7
+  {
+    margin: 16% 0% 0% 4%;
+    height: 11rem;
+  }
 }
