@@ -87,7 +87,7 @@ body {
 .hero .top-right {
 	position: absolute;
 	width: fit-content;
-	
+
 	height: fit-content;
 	margin-top: 4rem;
 	margin-right: 10rem;
@@ -366,7 +366,7 @@ body {
 	position: absolute;
 	z-index: 1;
 	color: rgba(255, 255, 255, 0.75);
-	font-size: 2.1rem;
+	font-size: 1.5rem;
 	font-weight: 600;
 }
 
@@ -451,11 +451,11 @@ body {
 	font-family: 'Anton', sans-serif;
 	line-height: 9rem;
 	color: rgba(0, 0, 0, 0.7);
-	margin-left: 10rem;
+	margin-left: 6%;
 }
 
 .discover .right {
-	width: 70%;
+	width: 60%;
 	text-align: center;
 	color: white;
 	font-family: 'Encode Sans', sans-serif;
@@ -463,7 +463,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-right: 5rem;
+	margin-right: 4%;
 }
 
 .discover .right > h1 {
