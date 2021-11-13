@@ -251,6 +251,10 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
 }
 
 .begins .top > div span {
@@ -281,6 +285,10 @@ body {
 	align-items: center;
 	justify-content: center;
 	font-weight: 700;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .begins .bottom > div {
