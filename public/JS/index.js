@@ -51,16 +51,13 @@ onloadGsap(
 	'.hero .bottom .bottom-right-2 .small'
 );
 
-console.log(document.querySelector('.begins .bottom span').innerText);
-
 gsap
 	.timeline({
 		scrollTrigger: {
 			trigger: '.begins',
-			start: 'top top'
+			start: 'top 60%'
 		}
 	})
-	.from('.begins .top', { duration: 5, autoAlpha: 0, ease: 'power2.out' })
 	.to(
 		'.begins .bottom div .span5',
 		{
@@ -150,4 +147,5 @@ gsap
 			ease: 'slow(0.7, 0.7, false)'
 		},
 		'>'
-	);
+	)
+	.from('.begins .top', { duration: 1, autoAlpha: 0, ease: 'power2.out' }, '>');
