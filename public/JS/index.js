@@ -148,9 +148,5 @@ gsap
 		},
 		'>'
 	)
-	.from('.begins .top', { duration: 1, autoAlpha: 0, ease: 'power2.out' }, '>')
-	.to(
-		'.begins .bottom',
-		{ duration: 1, autoAlpha: 0, ease: 'power2.out' },
-		'>-=1'
-	);
+	.to('.begins .bottom', { duration: 1, autoAlpha: 0, ease: 'power2.out' }, '>')
+	.from('.begins .top', { duration: 3, autoAlpha: 0, ease: 'power2.out' }, '>+1');
