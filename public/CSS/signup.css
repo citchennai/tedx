@@ -188,7 +188,13 @@ form p {
    
   margin-bottom: 6rem;
 }
-
+.option1 img {
+  width: 60%;
+}
+.option2 img {
+  width: 80%;
+  /* height: 100%; */
+}
 .option1 h3,
 .option2 h3 {
   text-align: center;
