@@ -7,8 +7,167 @@
 
 nav {
 	background-color: white;
+	
 }
-
+nav ul li a {
+	color:black
+}
 body {
 	background-color: #1f1f1f;
+}
+
+
+.title {
+	text-align: center;
+	font-size: 6rem;
+	color: white;
+	margin: 3rem 0rem;
+}
+
+.options {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #2F2F2F;
+}
+.options button {
+	border: none;
+	color: white;
+	background: transparent;
+	font-size: 1.75rem;
+	margin: 1rem 0rem;
+}
+.banner {
+	width: 100%;
+}
+.bannerImg {
+	width: 80%;
+	background-color: white;
+	margin-left: auto;
+	
+	
+}
+.bannerImg img {
+	width: 40%;
+	margin: 4rem auto;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+.modeContent {
+	position: relative;
+	width: 100%;
+	display: none;
+	
+
+}
+.modeContent h1 {
+	color: rgb(255, 255, 255);
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 3rem 0rem;
+	margin: 2rem 0rem;
+}
+.modeContent .whitedot1 {
+	position: absolute;
+	left: 0;
+	transform: translateY(30%);
+}
+.modeContent .whitedot2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateY(30%);
+}
+.modeContent .whitedot3 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transform: translateY(100%);
+}
+.modeContent .whitedot4 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translateY(100%);
+}
+
+.contentBox {
+	width: 90%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 8% auto;
+	
+}
+.contentMain {
+	border-left: 3px solid white;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+.contentBox p {
+	background-color: #2F2F2F;
+	display: flex;
+	flex-direction: row;
+	
+	margin-left: auto;
+	margin-right: auto;
+	color: #C4C4C4;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	padding: 2rem;
+	display: inline-block;
+	margin-left: 2%;
+	
+}
+.dots1 {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+}
+
+.dots2 {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+}
+.dots3 {
+	position: absolute;
+	top: 65%;
+	left: 5%;
+}
+.dots4 {
+	position: absolute;
+	top: 92%;
+	right: 5%;
+}
+
+
+
+
+
+.circle {
+	padding: .5rem .9rem;
+	background-color: white;
+	color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: -8.5%;
+	transform: translateX(8.5%);
+	font-weight: 600;
+	font-size: 1.2rem;
+	
+}
+.show {
+	display: block ;
+}
+.btn.active {
+	border-bottom: 5px solid red;
+	padding: .25rem;
+	
 }

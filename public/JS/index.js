@@ -149,4 +149,8 @@ gsap
 		'>'
 	)
 	.to('.begins .bottom', { duration: 1, autoAlpha: 0, ease: 'power2.out' }, '>')
-	.from('.begins .top', { duration: 3, autoAlpha: 0, ease: 'power2.out' }, '>+1');
+	.from(
+		'.begins .top',
+		{ duration: 3, autoAlpha: 0, ease: 'power2.out' },
+		'>+1'
+	);
