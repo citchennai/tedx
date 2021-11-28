@@ -2,276 +2,263 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../public/CSS/nav.css" />
-  <link rel="stylesheet" href="../public/CSS/signup.css" />
-  <link rel="stylesheet" href="../public/CSS/footer.css" />
-  <title>SIGN UP</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="../public/CSS/nav.css" />
+	<link rel="stylesheet" href="../public/CSS/signup.css" />
+	<link rel="stylesheet" href="../public/CSS/footer.css" />
+	<title>SIGN UP</title>
 </head>
 
 <body class="container">
-  <nav>
-    <a href=""><img src="../public/images/tedx.png" alt="tedx" /></a>
-    <ul>
-      <li><a href="../index.html">HOME</a></li>
-      <li><a href="../views/about.html">ABOUT</a></li>
-      <li><a href="../views/guidelines.html">GUIDELINES</a></li>
-      <li><a href="../views/signup.html">CONTACT</a></li>
-      <li class="join"><a href="/">JOIN</a></li>
-    </ul>
-  </nav>
-  <h1 class="title">
-    <span class="border">SIGN <span class="up">UP</span></span>
-  </h1>
-  <p class="para1">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae
-    tempor nec sed amet hac commodo tortor. Pretium, cursus diam tincidunt
-    mauris magna. Leo erat sed dictumst at. Quam.
-  </p>
-  <section class="contactBox">
-    <h1 class="details">DETAILS <br> <span></span></h1>
-    <form
-      action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScollumm6cXNYgKpz7EFYJ8sfgPzfp8jd_bGrbfy4FGHSf9RQ/formResponse"
-      class="formMain" method="post">
-      <div class="inputBox">
-        <label for="email">Your email <span style="color: red">*</span></label>
-        <input type="email" name="entry.698606844" id="email" />
-      </div>
-      <div class="inputBox">
-        <label for="email">Your name <span style="color: red">*</span></label>
-        <div class="nameMain">
-          <div class="first">
-            <p>First</p>
-            <input type="text" name="entry.1900239945" id="name" />
-          </div>
-          <div class="last">
-            <p>Last</p>
-            <input type="text" name="entry.1074865414" id="" />
-          </div>
-        </div>
-      </div>
-      <div class="inputBox">
-        <label for="club">Your company, school or community/club </label>
-        <input type="text" name="entry.208296270" id="club" />
-      </div>
-      <div class="inputBox">
-        <h1 class="location">Your location</h1>
-        <label for="city">City/town</label>
-        <input type="text" name="entry.1103297330" id="city" />
-      </div>
-      <div class="inputBox">
-        <label for="state">State/Province/Region</label>
-        <input type="text" name="entry.383773753" id="state" />
-      </div>
-      <div class="inputBox">
-        <label for="country">Country<span style="color: red">*</span></label>
-        <input type="text" name="entry.1849143577" id="country" />
-      </div>
-      <p class="policy">
-        TED will use the information you've shared to send you relevant
-        Countdown updates.<br />
-        TED will store, process and manage your information according to TED's
-        privacy policy:<br />https:/www.ted.com/privacy
-        <span style="color: red">*</span>
-      </p>
-      <div class="inputBox2">
-        <input type="checkbox" name="check" id="check" class="check" />
-        <label for="check" class="checkContent">I agree for TED to manage my personal information (as stated above)
-          and <br />
-          send me Countdown-related emails</label>
-      </div>
-      <button type="submit" class="btnsubmit">Submit</button>
-    </form>
-  </section>
-  <section class="options">
-    <h1 class="titleAttend">
-      ATTENDING <span style="color: white">OPTIONS</span>
-    </h1>
-    <div class="optionsFlex">
-      <div class="option1">
-        <h3>OFFLINE</h3>
-        <img src="../public/images/signup/offline.png" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
-          placerat ut elementum at venenatis duis hac blandit. Tellus arcu
-          suspendisse.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Felis placerat ut elementum at venenatis duis hac blandit.
-        </p>
-        <button class="register">Learn More</button>
-      </div>
-      <div class="option2">
-        <h3>ONLINE</h3>
-        <img src="../public/images/signup/online.png" alt="" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
-          placerat ut elementum at venenatis duis hac blandit. Tellus arcu
-          suspendisse.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Felis placerat ut elementum at venenatis duis hac blandit.
-        </p>
-        <button class="register">Learn More</button>
-      </div>
-    </div>
-  </section>
-  <section class="merch">
+	<div class="nav">
+		<input type="checkbox" id="nav-check">
+		<div class="nav-header">
+			<div class="nav-title">
+				<img class="image-tedx" src="../public/images/tedx.png" alt="">
+			</div>
+		</div>
+		<div class="nav-btn">
+			<label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+			</label>
+		</div>
 
-    <h1 class="merchTitle"><span><img src="../public/images/signup/dots.png" alt=""></span> Merch Section <span><img
-          src="../public/images/signup/dots.png" alt=""></span></h1>
+		<div class="nav-links">
+			<a href="../index.html">HOME</a>
+			<a href="../views/about.html">ABOUT</a>
+			<a href="../views/guidelines.html">GUIDELINES</a>
+			<a href="../views/signup.html">CONTACT</a>
+			<a class="join" href="/">JOIN</a>
+		</div>
+	</div>
+	<h1 class="title">
+		<span class="border">SIGN <span class="up">UP</span></span>
+	</h1>
+	<p class="para1">
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet vitae
+		tempor nec sed amet hac commodo tortor. Pretium, cursus diam tincidunt
+		mauris magna. Leo erat sed dictumst at. Quam.
+	</p>
+	<section class="contactBox">
+		<h1 class="details">DETAILS <br> <span></span></h1>
+		<form
+			action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScollumm6cXNYgKpz7EFYJ8sfgPzfp8jd_bGrbfy4FGHSf9RQ/formResponse"
+			class="formMain" method="post">
+			<div class="inputBox">
+				<label for="email">Your email <span style="color: red">*</span></label>
+				<input type="email" name="entry.698606844" id="email" required />
 
-    <p>
-      Lorem Ipsum is simply dummy text of the printing and typesetting
-      industry. Lorem Ipsum has been the industry's standard dummy text ever
-      since the 1500s, when an unknown printer took a galley of type and
-      scrambled it to make a
-    </p>
-    <h3 class="collectionTitle">COLLECTION</h3>
 
-    <div class="gridMain">
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-      <div class="gridcard">
-        <div class="pdetails">
-          <p class="prize">5</p>
-          <p class="pname">tshirt</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="body">
-      <a href="#">JOIN US</a>
-      <table>
-        <thead>
-          <tr>
-            <th>About TEDx</th>
-            <th colspan="2">CONTACT</th>
-            <th>Organizing Team</th>
-            <th>Speakers</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Lorem ipsum dolor</td>
-            <td>ABC</td>
-            <td>XXXXXXXXXX</td>
-            <td>NAME</td>
-            <td>NAME</td>
-          </tr>
-          <tr>
-            <td>Lorem ipsum dolor</td>
-            <td>ABC</td>
-            <td>XXXXXXXXXX</td>
-            <td>NAME</td>
-            <td>NAME</td>
-          </tr>
-          <tr>
-            <td>Lorem ipsum dolor</td>
-            <td>ABC</td>
-            <td>XXXXXXXXXX</td>
-            <td>NAME</td>
-            <td>NAME</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <div class="footer">
-      <ul>
-        <li>Linkedin</li>
-        <li>Instagram</li>
-        <li>Twitter</li>
-      </ul>
-      <p>
-        @Chennai India, Inc. All rights reserved / Privacy / Contact / Press
-      </p>
-    </div>
-  </footer>
+			</div>
+			<div class="inputBox">
+				<label for="email">Your name <span style="color: red">*</span></label>
+				<div class="nameMain">
+					<div class="first">
+						<p>First</p>
+						<input type="text" name="entry.1900239945" id="first" required />
 
-  <!-- <script src="https://wzrd.in/standalone/formdata-polyfill%22%3E"></script>
+					</div>
+					<div class="last">
+						<p>Last</p>
+						<input type="text" name="entry.1074865414" id="last" required />
+
+					</div>
+				</div>
+			</div>
+			<div class="inputBox">
+				<label for="club">Your company, school or community/club </label>
+				<input type="text" name="entry.208296270" id="club" />
+			</div>
+			<div class="inputBox">
+				<h1 class="location">Your location</h1>
+				<label for="city">City/town</label>
+				<input type="text" name="entry.1103297330" id="city" />
+			</div>
+			<div class="inputBox">
+				<label for="state">State/Province/Region</label>
+				<input type="text" name="entry.383773753" id="state" />
+			</div>
+			<div class="inputBox">
+				<label for="country">Country<span style="color: red"> *</span></label>
+				<input type="text" name="entry.1849143577" id="country" required />
+
+			</div>
+			<p class="policy">
+				TED will use the information you've shared to send you relevant
+				Countdown updates.<br />
+				TED will store, process and manage your information according to TED's
+				privacy policy:<br />https:/www.ted.com/privacy
+				<span style="color: red">*</span>
+			</p>
+			<div class="inputBox2">
+
+				<input type="checkbox" name="check" id="check" class="check" required />
+				<label for="check" class="checkContent">I agree for TED to manage my personal information (as stated
+					above)
+					and <br />
+					send me Countdown-related emails</label>
+
+
+			</div>
+			<button type="submit" class="btnsubmit">Submit</button>
+		</form>
+	</section>
+	<section class="options">
+		<h1 class="titleAttend">
+			ATTENDING <span style="color: white">OPTIONS</span>
+		</h1>
+		<div class="optionsFlex">
+			<div class="option1">
+				<h3>OFFLINE</h3>
+				<img src="../public/images/signup/offline.png" alt="" />
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+					placerat ut elementum at venenatis duis hac blandit. Tellus arcu
+					suspendisse.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Felis placerat ut elementum at venenatis duis hac blandit.
+				</p>
+				<button class="register">Learn More</button>
+			</div>
+			<div class="option2">
+				<h3>ONLINE</h3>
+				<img src="../public/images/signup/online.png" alt="" />
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis
+					placerat ut elementum at venenatis duis hac blandit. Tellus arcu
+					suspendisse.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Felis placerat ut elementum at venenatis duis hac blandit.
+				</p>
+				<button class="register">Learn More</button>
+			</div>
+		</div>
+	</section>
+	<section class="merch">
+
+		<h1 class="merchTitle"><span><img src="../public/images/signup/dots.png" alt=""></span> Merch Section <span><img
+					src="../public/images/signup/dots.png" alt=""></span></h1>
+
+		<p>
+			Lorem Ipsum is simply dummy text of the printing and typesetting
+			industry. Lorem Ipsum has been the industry's standard dummy text ever
+			since the 1500s, when an unknown printer took a galley of type and
+			scrambled it to make a
+		</p>
+		<h3 class="collectionTitle">COLLECTION</h3>
+
+		<div class="gridMain">
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+			<div class="gridcard">
+				<div class="pdetails">
+					<p class="prize">5</p>
+					<p class="pname">tshirt</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="body">
+			<a href="#">JOIN US</a>
+			<table>
+				<thead>
+					<tr>
+						<th>About TEDx</th>
+						<th colspan="2">CONTACT</th>
+						<th>Organizing Team</th>
+						<th>Speakers</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lorem ipsum dolor</td>
+						<td>ABC</td>
+						<td>XXXXXXXXXX</td>
+						<td>NAME</td>
+						<td>NAME</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor</td>
+						<td>ABC</td>
+						<td>XXXXXXXXXX</td>
+						<td>NAME</td>
+						<td>NAME</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor</td>
+						<td>ABC</td>
+						<td>XXXXXXXXXX</td>
+						<td>NAME</td>
+						<td>NAME</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>Linkedin</li>
+				<li>Instagram</li>
+				<li>Twitter</li>
+			</ul>
+			<p>
+				@Chennai India, Inc. All rights reserved / Privacy / Contact / Press
+			</p>
+		</div>
+	</footer>
+
+	<!-- <script src="https://wzrd.in/standalone/formdata-polyfill%22%3E"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest%22%3E"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest%22%3E"></script> -->
-  <script>
-    const check = document.getElementById("check");
-
-    const form = document.forms["google-sheet"];
-    const btn = document.querySelector(".btnsubmit");
-    var checked = false;
-    check.addEventListener("input", (e) => {
-
-      if (e.target.checked) {
-        console.log('hey');
-        checked = true;
-
-
-      }
-      else {
-        console.log('not check');
-        e.preventDefault();
-      }
-    });
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      if (checked) {
-        document.querySelector(".formMain").submit();
-      }
-      else {
-        console.log('not check');
-        e.preventDefault();
-      }
-    });
-
-
-
-
-
-
-  </script>
+	<script src="../public/JS/signup.js"></script>
 </body>
 
 </html>
