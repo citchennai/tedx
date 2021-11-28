@@ -39,18 +39,22 @@
           <label for="email"
             >Your email <span style="color: red">*</span></label
           >
-          <input type="email" name="entry.698606844" id="email" />
+          <input type="email" name="entry.698606844" id="email" required/>
+          
+
         </div>
         <div class="inputBox">
           <label for="email">Your name <span style="color: red">*</span></label>
           <div class="nameMain">
             <div class="first">
               <p>First</p>
-              <input type="text" name="entry.1900239945" id="name" />
+              <input type="text" name="entry.1900239945" id="first" required/>
+              
             </div>
             <div class="last">
               <p>Last</p>
-              <input type="text" name="entry.1074865414" id="" />
+              <input type="text" name="entry.1074865414" id="last" required/>
+              
             </div>
           </div>
         </div>
@@ -68,8 +72,9 @@
           <input type="text" name="entry.383773753" id="state" />
         </div>
         <div class="inputBox">
-          <label for="country">Country<span style="color: red">*</span></label>
-          <input type="text" name="entry.1849143577" id="country" />
+          <label for="country">Country<span style="color: red"> *</span></label>
+          <input type="text" name="entry.1849143577" id="country" required/>
+          
         </div>
         <p class="policy">
           TED will use the information you've shared to send you relevant
@@ -79,12 +84,15 @@
           <span style="color: red">*</span>
         </p>
         <div class="inputBox2">
-          <input type="checkbox" name="check" id="check" class="check" />
+          
+          <input type="checkbox" name="check" id="check" class="check" required/>
           <label for="check" class="checkContent"
             >I agree for TED to manage my personal information (as stated above)
             and <br />
             send me Countdown-related emails</label
           >
+         
+          
         </div>
         <button type="submit" class="btnsubmit">Submit</button>
       </form>
@@ -239,41 +247,6 @@
     <!-- <script src="https://wzrd.in/standalone/formdata-polyfill%22%3E"></script>
     <script src="https://wzrd.in/standalone/promise-polyfill@latest%22%3E"></script>
     <script src="https://wzrd.in/standalone/whatwg-fetch@latest%22%3E"></script> -->
-    <script>
-      const check = document.getElementById("check");
-      
-      const form = document.forms["google-sheet"];
-      const btn = document.querySelector(".btnsubmit");
-      var checked = false;
-       check.addEventListener("input",(e)=>{
-        
-        if(e.target.checked){
-          console.log('hey');
-          checked = true;
-          
-          
-        }
-        else{
-          console.log('not check');
-          e.preventDefault();
-        }
-      });
-      btn.addEventListener("click",(e)=>{
-        e.preventDefault();
-        if(checked){
-          document.querySelector(".formMain").submit();
-        }
-        else{
-          console.log('not check');
-          e.preventDefault();
-        }
-      });
-      
-      
-      
-          
-      
-      
-    </script>
+    <script src="../public/JS/signup.js"></script>
   </body>
 </html>

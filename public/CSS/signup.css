@@ -29,9 +29,9 @@
 .para1 {
   text-align: left;
   color: #C4C4C4;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 3rem 10%;
-  width: 70%;
+  width: 60%;
   position: relative;
 }
 
@@ -69,7 +69,7 @@
 }
 form label {
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.45rem;
   margin: 0.5rem 0rem;
   font-weight: 600;
 }
@@ -125,6 +125,7 @@ form p {
 }
 .inputBox2 {
   display: flex;
+  
   width: 80%;
   margin: 2rem 0rem;
   margin-left: auto;
@@ -201,7 +202,7 @@ form p {
 .option2 p {
   text-align: justify;
   width: 80%;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   padding: 1rem;
 }
 
