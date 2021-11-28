@@ -12,6 +12,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body
@@ -45,6 +46,8 @@ nav ul li a {
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  background: #000;
+  color: #fff;
   border-top: 2px solid rgba(0, 0, 0, 0.336);
   border-bottom: 4px solid rgba(0, 0, 0, 0.336);
 }
@@ -54,14 +57,17 @@ nav ul li a {
 }
 .second-nav ul li a {
   text-decoration: none;
-  color: black;
-  font-size: 20px;
+  color: #fff;
+  font-size: 1.2rem;
   font-family: "Encode Sans", sans-serif;
   font-weight: bold;
   margin: 10px;
 }
 .second-nav ul li a:hover {
-  color: var(--heading);
+  /* color: var(--heading); */
+  padding-bottom: 2px;
+  border-bottom: 2px solid var(--heading);
+  margin-bottom: -2px;
 }
 .second-nav ul li a:active {
   color: var(--heading);
@@ -75,6 +81,10 @@ nav ul li a {
 {
   width: 100%;
   height: 100vh;
+}
+.section-first p
+{
+  font-size: 1.1rem;
 }
 
 .section-first-img
@@ -121,7 +131,7 @@ nav ul li a {
 .line1 {
   position: absolute;
   width: 6px;
-  height: 8rem;
+  height: 4rem;
   margin: 6% 0% 0% 7%;
   background-color: var(--heading);
   border-radius: 50rem;
