@@ -12,3 +12,170 @@ nav {
 body {
 	background-color: #1f1f1f;
 }
+
+
+.title {
+	text-align: center;
+	font-size: 6rem;
+	color: white;
+	margin: 3rem 0rem;
+}
+
+.options {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #2F2F2F;
+}
+.options button {
+	border: none;
+	color: white;
+	background: transparent;
+	font-size: 1.75rem;
+	margin: 1rem 0rem;
+}
+.banner {
+	width: 100%;
+}
+.bannerImg {
+	width: 80%;
+	background-color: white;
+	margin-left: auto;
+	
+	
+}
+.bannerImg img {
+	width: 40%;
+	margin: 4rem auto;
+	left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+.modeContent {
+	position: relative;
+	
+
+}
+.modeContent h1 {
+	color: rgb(255, 255, 255);
+	font-size: 2.5rem;
+	text-align: center;
+	padding: 3rem 0rem;
+	margin: 2rem 0rem;
+}
+.modeContent .whitedot1 {
+	position: absolute;
+	left: 0;
+	transform: translateY(30%);
+}
+.modeContent .whitedot2 {
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: translateY(30%);
+}
+.modeContent .whitedot3 {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	transform: translateY(100%);
+}
+.modeContent .whitedot4 {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	transform: translateY(100%);
+}
+
+.contentBox {
+	width: 60%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 3rem auto;
+	
+}
+
+.contentBox p {
+	background-color: #2F2F2F;
+	display: flex;
+	flex-direction: row;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	color: #C4C4C4;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	padding: 2rem;
+	display: inline-block;
+	margin-left: 1rem;
+	
+}
+.dots1 {
+	position: absolute;
+	top: 35%;
+	left: 5%;
+}
+
+.dots2 {
+	position: absolute;
+	top: 50%;
+	right: 5%;
+}
+.dots3 {
+	position: absolute;
+	top: 65%;
+	left: 5%;
+}
+.dots4 {
+	position: absolute;
+	top: 92%;
+	right: 5%;
+}
+.linesMain {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 10%;
+	
+	
+	
+}
+.linesMain span img {
+	
+}
+.forFlex {
+	display: flex;
+	height: fit-content;
+
+}
+.line {
+	position:relative;
+	height: fit-content;
+	display: inline-block;
+}
+/* .l2 {
+	transform: translateY(-26%);
+}
+.l3 {
+	transform: translateY(-52%);
+}
+.l4 {
+	transform: translateY(-78%);
+}
+.l5 {
+	transform: translateY(-67%);
+}
+.p2 {
+	transform: translateY(-20%);
+}
+.p3 {
+	transform: translateY(-55%);
+}
+.p4 {
+	transform: translateY(-90%);
+}
+.p5 {
+	transform: translateY(-180%);
+} */
