@@ -5,7 +5,6 @@ let sections = gsap.utils.toArray(".heading-div");
 gsap.to(sections, {
     xPercent: -100 * (sections.length - 1),
     ease: "none",
-    duration: .1,
     scrollTrigger: {
         trigger: ".container",
         pin: true,
@@ -13,6 +12,8 @@ gsap.to(sections, {
         end: "+=3500",
     }
 });
+
+
 
 gsap
     .timeline({

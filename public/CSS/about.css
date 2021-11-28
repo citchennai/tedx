@@ -24,7 +24,7 @@ body
 
 .container{
   overscroll-behavior: none;
-  width: 190%;
+  width: 200%;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
@@ -166,6 +166,7 @@ nav ul li a {
   justify-content: space-around;
   /* align-items: start; */
   height: 30rem;
+  width: 100%;
   /* margin: 18% 0%; */
 }
 
@@ -175,7 +176,7 @@ nav ul li a {
 
 .heading {
   color: var(--heading);
-  font-size: 57px;
+  font-size: 40px;
   font-family: "Encode Sans", sans-serif;
 }
 .heading-left-div {
@@ -189,6 +190,7 @@ nav ul li a {
   color: var(--paragraph);
   margin-top: 2%;
   width: 90%;
+  text-align: justify;
 }
 
 .heading-right-div {
@@ -362,7 +364,7 @@ nav ul li a {
 }
 
 .second-mission h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--heading);
 }
 .second-mission p {
@@ -392,6 +394,9 @@ nav ul li a {
   position: absolute;
   top: 25%;
   right: 25%;
+  left: none;
+  width: none;
+  height: none;
 }
 .image-border1 {
   position: absolute;
