@@ -30,7 +30,7 @@ nav a {
 }
 
 nav img {
-  width: 5rem;
+  width: 25rem;
   object-fit: cover;
 }
 
@@ -44,6 +44,12 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+nav ul li a:hover
+{
+  border-bottom: 3px solid #ec1015;
+  margin-bottom: -3px;
 }
 
 nav ul li {
@@ -63,9 +69,9 @@ nav ul .join {
 }
 
 nav ul .join::after {
-  background-color: rgba(255, 46, 46, 0.48);
+  background-color: #f1ff39;
   content: "JOIN";
-  color: white;
+  color: black;
   align-items: center;
   justify-content: center;
   display: flex;
@@ -74,4 +80,9 @@ nav ul .join::after {
   height: 100%;
   top: 0;
   left: 0;
+  transition: all 0.1s ease-in-out;
+}
+nav ul .join:hover::after {
+  background-color: black;
+  color: #f1ff39;
 }
