@@ -46,7 +46,7 @@
 .details {
   position: relative;
   width: fit-content;
-  font-size: 4rem;
+  font-size:3rem;
   color: white;
   text-align: center;
   left: 50%;
@@ -69,7 +69,7 @@
 }
 form label {
   color: white;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 0.5rem 0rem;
   font-weight: 600;
 }
@@ -99,7 +99,7 @@ form input {
   text-align: center;
   font-weight: 500;
   /* font-size: 1rem; */
-  font-size: 1.5rem;
+  font-size: 1.45rem;
 }
 .inputBox p {
   color: white;
@@ -109,14 +109,14 @@ form input {
 }
 
 .location {
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   text-align: left;
   margin: 1rem 0rem;
 }
 form p {
   color: white;
-  font-size: 1.7rem;
+  font-size: 1.45rem;
   width: 90%;
   text-align: justify;
   margin-left: auto;
@@ -158,7 +158,7 @@ form p {
 .titleAttend {
   text-align: center;
   position: relative;
-  font-size: 5rem;
+  font-size: 3.5rem;
   color: #F1FF39;
   margin: 6rem 0rem 3rem 0rem;
 }
@@ -192,7 +192,7 @@ form p {
 .option2 h3 {
   text-align: center;
   width: 100%;
-  font-size: 3rem;
+  font-size: 2rem;
   border-bottom: 15px solid black;
   padding-bottom: 1rem;
   margin: 1rem 0rem;
@@ -228,7 +228,7 @@ form p {
 .merchTitle {
   text-align: center;
   position: relative;
-  font-size: 8rem;
+  font-size: 5rem;
   color: black;
   padding: 3rem 0rem;
 }
@@ -241,14 +241,14 @@ form p {
   text-align: center;
   font-weight: 400;
   position: relative;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 70%;
   color: #575757;
 }
 
 .collectionTitle {
-  letter-spacing: 5px;
-  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-size: 1.75rem;
   text-align: center;
   padding: 4rem 0rem;
 }
