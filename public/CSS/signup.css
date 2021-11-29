@@ -94,7 +94,7 @@ form input {
 }
 
 .policy {
-  padding: 2rem 0rem;
+  padding: 2rem 2rem;
   width: 100%;
   text-align: center;
   font-weight: 500;
@@ -185,7 +185,9 @@ form p {
   display: flex;
   flex-direction: column;
   align-items: center;
-   
+  justify-content: space-evenly;
+  
+  
   margin-bottom: 6rem;
 }
 .option1 img {
@@ -316,5 +318,122 @@ form p {
 }
 .disabled {
   background-color: rgba(255, 255, 255,1);
+  
+}
+
+
+@media (max-width:1000px) {
+  .option1 {
+    width:70%;
+  }
+  .titleAttend {
+    font-size: 3rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .para1 {
+    font-size: 1.2rem;
+  }
+}
+@media(max-width:800px) {
+  .para1 {
+    width: 80%;
+  }
+  form label {
+    font-size: 1.2rem;
+  }
+  form p {
+    font-size: 1.2rem;
+  }
+  form input {
+    width: 90%;
+  }
+  .first {
+    width: 50%;
+  }
+  .last {
+    width: 50%;
+  }
+  .policy {
+    font-size: 1.2rem;
+  }
+  .checkContent {
+    font-size: 1.2rem;
+  }
+  .check {
+    width:15%;
+  }
+}
+@media (max-width:600px) {
+  form label {
+    font-size: 1rem;
+  }
+  form p {
+    font-size: 1rem;
+  }
+  .policy {
+    font-size: 1rem;
+  }
+  .checkContent {
+    font-size: 1rem;
+  }
+  .para1 {
+    font-size: 1rem;
+  }
+  .title {
+    font-size: 3rem;
+  }
+  .details {
+    font-size: 1.5rem;
+  }
+  .btnsubmit {
+    font-size: 1rem;
+  }
+  .titleAttend {
+    font-size: 2rem;
+  }
+  .option1 h3 {
+    font-size: 1.5rem;
+  }
+  .option1 p {
+    font-size: 1.2rem;
+  }
+  .register {
+    font-size: 1rem;
+  }
+  .option1 {
+    width: 90%;
+  }
+  .inputBox2 {
+      width: 90%;
+      margin: 1rem 0rem;
+  }
+  .location {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width:400px) {
+  .title {
+    font-size: 2rem;
+  }
+  .para1 {
+    font-size: 1rem;
+  }
+  .titleAttend {
+    font-size: 1.5rem;
+  }
+  form input {
+    width: 95%;
+  }
+  .policy {
+    padding: 1rem 1rem;
+  }
+  .option1 p {
+    width: 90%;
+  }
+  
+
+  
   
 }
