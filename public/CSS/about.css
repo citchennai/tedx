@@ -15,24 +15,21 @@
   scroll-behavior: smooth;
 }
 
-body
-{
+body {
   overscroll-behavior: none;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
-.container{
+.container {
   overscroll-behavior: none;
-  width: 190%;
+  width: 200%;
   height: 100vh;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
 }
-
-
 
 nav {
   background-color: rgb(255, 255, 255);
@@ -73,37 +70,29 @@ nav ul li a {
   color: var(--heading);
 }
 
-
 /* section-first */
 
-
-.section-first
-{
+.section-first {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
 }
-.section-first p
-{
+.section-first p {
   font-size: 1.1rem;
 }
 
-.section-first-img
-{
+.section-first-img {
   padding: 2% 5%;
 }
 
-.section-first-content
-{
+.section-first-content {
   padding: 1% 5%;
 }
 
-.section-first-content-about
-{
+.section-first-content-about {
   margin-bottom: 2%;
 }
 
-.section-first-content-about h1
-{
+.section-first-content-about h1 {
   text-align: center;
   font-size: 4rem;
   font-family: "Poppins", sans-serif;
@@ -111,13 +100,15 @@ nav ul li a {
   color: black;
 }
 
-.section-first-content-about h1 span
-{
+.section-first-content-about h1 span {
   color: var(--heading);
 }
 
-
 /* mission */
+
+.mission-section-mobile {
+  display: none;
+}
 
 .our-mission-heading {
   position: relative;
@@ -166,6 +157,7 @@ nav ul li a {
   justify-content: space-around;
   /* align-items: start; */
   height: 30rem;
+  width: 100%;
   /* margin: 18% 0%; */
 }
 
@@ -175,7 +167,7 @@ nav ul li a {
 
 .heading {
   color: var(--heading);
-  font-size: 57px;
+  font-size: 40px;
   font-family: "Encode Sans", sans-serif;
 }
 .heading-left-div {
@@ -189,6 +181,7 @@ nav ul li a {
   color: var(--paragraph);
   margin-top: 2%;
   width: 90%;
+  text-align: justify;
 }
 
 .heading-right-div {
@@ -255,7 +248,9 @@ nav ul li a {
   border-radius: 10px;
   z-index: 3;
 }
-
+.image-border-right-mobile {
+  display: none;
+}
 .our-mission-main {
   width: 100%;
   display: flex;
@@ -314,29 +309,25 @@ nav ul li a {
   bottom: -8%;
   right: 8%;
 }
-.three-dot-img-1
-{
+.three-dot-img-1 {
   position: absolute;
   z-index: 10;
   top: 4%;
   left: 12%;
 }
-.three-dot-img-2
-{
+.three-dot-img-2 {
   position: absolute;
   z-index: 10;
   bottom: 4%;
   left: 12%;
 }
-.three-dot-img-3
-{
+.three-dot-img-3 {
   position: absolute;
   z-index: 10;
   top: 4%;
   right: 12%;
 }
-.three-dot-img-4
-{
+.three-dot-img-4 {
   position: absolute;
   z-index: 10;
   bottom: 4%;
@@ -362,7 +353,7 @@ nav ul li a {
 }
 
 .second-mission h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--heading);
 }
 .second-mission p {
@@ -392,6 +383,9 @@ nav ul li a {
   position: absolute;
   top: 25%;
   right: 25%;
+  left: none;
+  width: none;
+  height: none;
 }
 .image-border1 {
   position: absolute;
@@ -530,8 +524,7 @@ nav ul li a {
   justify-content: center;
   margin-top: 4%;
 }
-.three-dots-div-start
-{
+.three-dots-div-start {
   display: flex;
   flex-direction: row;
   width: 85%;
@@ -542,8 +535,7 @@ nav ul li a {
   left: 50%;
   transform: translateX(-50%);
 }
-.three-dots-div
-{
+.three-dots-div {
   display: flex;
   flex-direction: row;
   width: 85%;
@@ -551,7 +543,6 @@ nav ul li a {
   align-items: center;
   margin-top: 4%;
 }
-
 
 .event-organizers-content {
   position: relative;
@@ -661,34 +652,188 @@ nav ul li a {
   .line6 {
     height: 11rem;
   }
-  .title-black-background p
-  {
+  .title-black-background p {
     width: 60%;
   }
-  .title-black-background
-  {
+  .title-black-background {
     height: 50vh;
   }
-  .image-speaker
-  {
+  .image-speaker {
     margin-top: 15%;
   }
-  .image-speaker-content
-  {
+  .image-speaker-content {
     height: fit-content;
     top: 68%;
   }
+  .event-organizers-content {
+    width: 70%;
+  }
+  .image-organizer {
+    margin-top: 15%;
+  }
+  .line7 {
+    margin: 16% 0% 0% 4%;
+    height: 11rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .second-nav ul {
+    display: none;
+  }
+  .section-first-img {
+    width: 100%;
+    display: none;
+  }
+
+  .line1 {
+    display: none;
+  }
+  .image-img-mobile {
+    width: 100%;
+  }
+
+  .second-mission-main {
+    flex-direction: column;
+    height: fit-content;
+  }
+
+  .heading-div {
+    flex-direction: column;
+  }
+
+  .mission-section {
+    display: none;
+  }
+  .section-first-content-about h1
+  {
+    font-size: 2rem;
+  }
+  .mission-section-mobile {
+    display: block;
+    padding: 10% 5%;
+  }
+  .mission-section-mobile h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .second-mission {
+    width: 100%;
+  }
+
+  .second-mission h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .second-mission p {
+    font-size: 1.2rem;
+  }
+
+  .our-mission-main {
+    display: none;
+  }
+
+  .image-border-right {
+    display: none;
+  }
+  .second-mission-content {
+    left: 0%;
+    width: 100%;
+  }
+
+  .image-border-right-mobile {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-border1-mobile {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    bottom: 15%;
+    right: 15%;
+    border: 2px solid #000;
+  }
+  .image-border2-mobile {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 15%;
+    right: 15%;
+    border: 2px solid #000;
+  }
+
+  .our-mission-div {
+    display: none;
+  }
+
+  .title-black-background {
+    display: none;
+  }
+
+  .presents-our-speakers h4 {
+    width: 80%;
+    font-size: 2rem;
+  }
+  .images-speakers-main-div {
+    width: 85%;
+  }
+  .image-speaker {
+    width: 100%;
+  }
+  .image-speaker-content {
+    top: 70%;
+  }
   .event-organizers-content
   {
-    width: 70%;
+    width: 85%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .images-speakers-main-div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .event-organizers-h1 {
+    font-size: 2rem;
+  }
+  .all-image-organizers {
+    grid-template-columns: 1fr;
+    width: 80%;
+    left: 0%;
   }
   .image-organizer
   {
-    margin-top: 15%;
+    width: 100%;
   }
-  .line7
+
+  footer .body
   {
-    margin: 16% 0% 0% 4%;
-    height: 11rem;
+    flex-direction: column;
+  }
+  footer table
+  {
+    margin-top: 5%;
+  }
+  footer .footer ul
+  {
+    width: 90%;
   }
 }
