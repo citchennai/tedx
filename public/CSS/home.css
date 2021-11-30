@@ -21,6 +21,7 @@
 }
 .image-tedx {
   background: #fff;
+  width: 80% !important;
 }
 
 ::-webkit-scrollbar {
