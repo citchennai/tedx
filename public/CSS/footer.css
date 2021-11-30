@@ -36,7 +36,7 @@ footer .body a {
 	font-size: 1.2rem;
 	font-weight: 600;
 	background-color: #f0fe39;
-	padding: 0.5rem 1rem;
+	padding: 0.1rem 1rem;
 	border-radius: 5px;
 }
 
@@ -81,8 +81,14 @@ footer .footer ul {
 	color: #a7a7a7;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
+	z-index: 100000;
 }
 
 footer .footer ul li {
 	list-style-type: none;
+}
+footer .footer ul li a {
+	/* list-style-type: none; */
+	color: #ffffff;
+	text-decoration: none;
 }
