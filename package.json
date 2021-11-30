@@ -1,0 +1,20 @@
+{
+	"name": "tedx-countdown",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"git": "git add . && git commit -m 'changes' && git pull origin main && git push origin main"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/lohithsrk/TEDx-COUNTDOWN.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/lohithsrk/TEDx-COUNTDOWN/issues"
+	},
+	"homepage": "https://github.com/lohithsrk/TEDx-COUNTDOWN#readme"
+}
