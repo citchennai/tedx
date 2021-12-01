@@ -31,11 +31,22 @@ body {
   justify-content: center;
 }
 
-nav {
-  background-color: rgb(255, 255, 255);
+.nav {
+	background-color: rgba(255, 255, 255, 0.35) !important;
 }
-nav ul li a {
-  color: black;
+
+.nav .nav-title img {
+	width: 22rem;
+	margin-left: 4rem;
+}
+
+.nav .nav-links a {
+	color: rgb(0, 0, 0) !important;
+}
+
+.nav .nav-links a.join {
+	color: black !important;
+	padding: 0.5rem 1.5rem;
 }
 
 .second-nav ul {
