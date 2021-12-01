@@ -30,7 +30,7 @@ footer td {
 	font-weight: 200;
 }
 
-footer .body a {
+.footer-atag {
 	text-decoration: none;
 	color: black;
 	font-size: 1.2rem;
@@ -38,6 +38,11 @@ footer .body a {
 	background-color: #f0fe39;
 	padding: 0.1rem 1rem;
 	border-radius: 5px;
+}
+footer a
+{
+	text-decoration: none;
+	color: white;
 }
 
 footer table thead tr {
@@ -91,4 +96,9 @@ footer .footer ul li a {
 	/* list-style-type: none; */
 	color: #ffffff;
 	text-decoration: none;
+}
+
+.privacy-policy
+{
+	z-index: 10000;
 }
