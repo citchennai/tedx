@@ -1,21 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* nav */
+.nav {
+  background: #000;
+}
+.nav > .nav-links > a {
+  color: white;
+}
+.nav > .nav-header {
+  width: 33%;
+}
+.image-tedx {
+  background: #fff;
+  width: 80% !important;
 }
 
 ::-webkit-scrollbar {
-	width: 7px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #ec1015;
-	border-radius: 3px;
+  background: #ec1015;
+  border-radius: 3px;
 }
 
 .nav {
@@ -37,243 +52,243 @@
 }
 
 body {
-	background-color: #0e0d0d;
-	overflow: overlay;
+  background-color: #0e0d0d;
+  overflow: overlay;
 }
 
 .hero {
-	width: 100%;
-	height: calc(100vh - 4.3rem);
-	position: relative;
+  width: 100%;
+  height: calc(100vh - 4.3rem);
+  position: relative;
 }
 
 .center-hero {
-	position: absolute;
-	width: 38rem;
-	height: 23rem;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -70%);
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-	background: url('../images/hero_tedx.png') center/cover;
+  position: absolute;
+  width: 38rem;
+  height: 23rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: url("../images/hero_tedx.png") center/cover;
 }
 
 .center-hero > div {
-	color: white;
-	position: absolute;
-	font-size: 1.5rem;
-	font-weight: 600;
-	transform: translateY(-50%);
+  color: white;
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transform: translateY(-50%);
 }
 
 .center-hero > div > span {
-	color: #ec1015;
+  color: #ec1015;
 }
 
 .hero .top-left {
-	position: absolute;
-	width: fit-content;
-	height: fit-content;
-	margin-top: 6rem;
-	margin-left: 3.5rem;
-	top: 0;
-	left: 0;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 6rem;
+  margin-left: 3.5rem;
+  top: 0;
+  left: 0;
 }
 
 .hero .top-left .large {
-	height: 11rem;
-	width: 14rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: bottom left;
+  height: 11rem;
+  width: 14rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: bottom left;
 }
 
 .hero .top-left .small {
-	position: absolute;
-	top: 0;
-	right: 0;
-	transform: translate(60%, -40%);
-	transform-origin: top right;
-	height: 6rem;
-	width: 8rem;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.6);
-	display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(60%, -40%);
+  transform-origin: top right;
+  height: 6rem;
+  width: 8rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.6);
+  display: inline-block;
 }
 
 .hero .top-right {
-	position: absolute;
-	width: fit-content;
+  position: absolute;
+  width: fit-content;
 
-	height: fit-content;
-	margin-top: 4rem;
-	margin-right: 10rem;
-	top: 0;
-	right: 0;
+  height: fit-content;
+  margin-top: 4rem;
+  margin-right: 10rem;
+  top: 0;
+  right: 0;
 }
 
 .hero .top-right .large {
-	height: 11rem;
-	width: 14rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: top left;
+  height: 11rem;
+  width: 14rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: top left;
 }
 
 .hero .top-right .small {
-	position: absolute;
-	transform-origin: bottom right;
-	bottom: 0;
-	right: 0;
-	transform: translate(60%, 65%);
-	height: 6rem;
-	width: 8rem;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.6);
-	display: inline-block;
+  position: absolute;
+  transform-origin: bottom right;
+  bottom: 0;
+  right: 0;
+  transform: translate(60%, 65%);
+  height: 6rem;
+  width: 8rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.6);
+  display: inline-block;
 }
 
 .hero .bottom .bottom-left {
-	position: absolute;
-	width: fit-content;
-	height: fit-content;
-	margin-bottom: 3rem;
-	margin-left: 3.5rem;
-	bottom: 5%;
-	left: 3%;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 3rem;
+  margin-left: 3.5rem;
+  bottom: 5%;
+  left: 3%;
 }
 
 .hero .bottom .bottom-left .large {
-	height: 8rem;
-	width: 11rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: bottom right;
+  height: 8rem;
+  width: 11rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: bottom right;
 }
 
 .hero .bottom .bottom-left .small {
-	position: absolute;
-	top: 0;
-	right: 0;
-	transform: translate(60%, -40%);
-	height: 5rem;
-	width: 6rem;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.6);
-	display: inline-block;
-	transform-origin: top left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(60%, -40%);
+  height: 5rem;
+  width: 6rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.6);
+  display: inline-block;
+  transform-origin: top left;
 }
 
 .hero .bottom .bottom-left-2 {
-	position: absolute;
-	width: fit-content;
-	height: fit-content;
-	margin-bottom: 3rem;
-	bottom: 8%;
-	left: 30%;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 3rem;
+  bottom: 8%;
+  left: 30%;
 }
 
 .hero .bottom .bottom-left-2 .large {
-	height: 7rem;
-	width: 10rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: bottom right;
+  height: 7rem;
+  width: 10rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: bottom right;
 }
 
 .hero .bottom .bottom-right {
-	position: absolute;
-	width: fit-content;
-	height: fit-content;
-	margin-bottom: 3rem;
-	margin-left: 3.5rem;
-	bottom: 0;
-	right: 30%;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 3rem;
+  margin-left: 3.5rem;
+  bottom: 0;
+  right: 30%;
 }
 
 .hero .bottom .bottom-right .large {
-	height: 8rem;
-	width: 11rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: right;
+  height: 8rem;
+  width: 11rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: right;
 }
 
 .hero .bottom .bottom-right .small {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	transform-origin: left;
-	transform: translate(-20%, -50%);
-	height: 5rem;
-	width: 6rem;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.6);
-	display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform-origin: left;
+  transform: translate(-20%, -50%);
+  height: 5rem;
+  width: 6rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.6);
+  display: inline-block;
 }
 
 .hero .bottom .bottom-right-2 {
-	position: absolute;
-	width: fit-content;
-	height: fit-content;
-	bottom: 15%;
-	right: 5%;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  bottom: 15%;
+  right: 5%;
 }
 
 .hero .bottom .bottom-right-2 .large {
-	height: 8rem;
-	width: 11rem;
-	border-radius: 20px;
-	box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.35);
-	transform-origin: bottom right;
+  height: 8rem;
+  width: 11rem;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.35);
+  transform-origin: bottom right;
 }
 
 .hero .bottom .bottom-right-2 .small {
-	position: absolute;
-	transform-origin: top left;
-	top: 0;
-	left: 0;
-	transform: translate(-70%, -40%);
-	height: 5rem;
-	width: 6rem;
-	border-radius: 20px;
-	box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
-	background-color: rgba(64, 64, 64, 0.6);
-	display: inline-block;
+  position: absolute;
+  transform-origin: top left;
+  top: 0;
+  left: 0;
+  transform: translate(-70%, -40%);
+  height: 5rem;
+  width: 6rem;
+  border-radius: 20px;
+  box-shadow: 3px 3px 4px rgba(255, 251, 251, 0.18);
+  background-color: rgba(64, 64, 64, 0.6);
+  display: inline-block;
 }
 
 .begins {
-	width: 100%;
-	height: 100vh;
-	position: relative;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .begins .top {
-	width: 100%;
-	height: 50%;
-	background: url('../images/Begins.png');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 90%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: absolute;
+  width: 100%;
+  height: 50%;
+  background: url("../images/Begins.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .begins .top > div {
@@ -296,84 +311,84 @@ body {
 }
 
 .begins .bottom {
-	width: 100%;
-	height: 50%;
-	font-size: 15rem;
-	color: white;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	font-weight: 700;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  width: 100%;
+  height: 50%;
+  font-size: 15rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .begins .bottom > div {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	margin-left: 3rem;
-	overflow: hidden;
-	width: 10rem;
-	height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 3rem;
+  overflow: hidden;
+  width: 10rem;
+  height: 100%;
 }
 
 .begins .bottom > div > span {
-	position: absolute;
-	top: 100%;
+  position: absolute;
+  top: 100%;
 }
 
 .begins .bottom > div > span:nth-of-type(1) {
-	z-index: 10;
-	top: 0;
+  z-index: 10;
+  top: 0;
 }
 
 .begins .bottom > div > span:nth-of-type(2) {
-	z-index: 9;
+  z-index: 9;
 }
 
 .begins .bottom > div > span:nth-of-type(3) {
-	z-index: 8;
+  z-index: 8;
 }
 
 .begins .bottom > div > span:nth-of-type(4) {
-	z-index: 7;
+  z-index: 7;
 }
 
 .begins .bottom > div > span:nth-of-type(5) {
-	z-index: 6;
+  z-index: 6;
 }
 
 .view-event * {
-	font-family: 'Anton', sans-serif;
+  font-family: "Anton", sans-serif;
 }
 
 .view-event {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	display: flex;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
 }
 
 .view-event .left {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	line-height: 8rem;
-	justify-content: center;
-	flex-direction: column;
-	background-color: #f1ff39;
-	font-size: 8rem;
-	padding-left: 10rem;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  line-height: 8rem;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1ff39;
+  font-size: 8rem;
+  padding-left: 10rem;
 }
 
 .view-event .right {
-	width: 50%;
-	height: 100%;
-	padding-left: 4rem;
-	color: white;
+  width: 50%;
+  height: 100%;
+  padding-left: 4rem;
+  color: white;
 }
 
 .view-event .right h1 {
@@ -384,7 +399,7 @@ body {
 }
 
 .view-event .right h1 span {
-	color: #f1ff39;
+  color: #f1ff39;
 }
 
 .view-event .right p {
@@ -413,16 +428,16 @@ body {
 }
 
 .view-event .right a {
-	padding: 0.5rem 2rem;
-	border: 5px solid #ff2e2e;
-	background: rgba(255, 255, 255, 0.1);
-	border-radius: 5px;
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	font-weight: 700;
-	font-size: 1.2rem;
-	font-family: 'Encode Sans';
+  padding: 0.5rem 2rem;
+  border: 5px solid #ff2e2e;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1.2rem;
+  font-family: "Encode Sans";
 }
 
 .about {
