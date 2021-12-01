@@ -20,7 +20,7 @@ body {
 
 .title {
 	text-align: center;
-	font-size: 6rem;
+	font-size: 5rem;
 	color: white;
 	margin: 3rem 0rem;
 }
@@ -76,13 +76,22 @@ body {
 .modeContent .whitedot1 {
 	position: absolute;
 	left: 0;
-	transform: translateY(30%);
+	transform: translateY(-80%);
 }
 .modeContent .whitedot2 {
 	position: absolute;
 	right: 0;
 	top: 0;
-	transform: translateY(30%);
+	transform: translateY(-80%);
+	
+}
+.modeContent .whitedot2 img {
+	transform: rotateY(-180deg);
+
+}
+.modeContent .whitedot4 img {
+	transform: rotateY(-180deg);
+
 }
 .modeContent .whitedot3 {
 	position: absolute;
@@ -107,9 +116,11 @@ body {
 }
 .contentMain {
 	border-left: 3px solid white;
+	position: relative;
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10rem;
 
 }
 .contentBox p {
@@ -127,6 +138,7 @@ body {
 	margin-left: 2%;
 	
 }
+
 .dots1 {
 	position: absolute;
 	top: 35%;
@@ -160,9 +172,9 @@ body {
 	border-radius: 50%;
 	position: absolute;
 	top: 50%;
+	left: 0%;
 	transform: translateY(-50%);
-	left: -8.5%;
-	transform: translateX(8.5%);
+	transform: translateX(-160%);
 	font-weight: 600;
 	font-size: 1.2rem;
 	
@@ -173,5 +185,71 @@ body {
 .btn.active {
 	border-bottom: 5px solid red;
 	padding: .25rem;
+	
+}
+@media (max-width: 1350px) {
+	.circle {
+		transform: translateX(-150%);
+	}
+}
+@media (max-width: 1200px) {
+	.circle {
+		transform: translateX(-140%);
+	}
+}
+	
+@media (max-width: 1000px) {
+	.circle {
+		transform: translateX(-120%);
+	}
+}
+@media (max-width:800px) {
+	.title {
+		font-size: 3rem;
+	}
+	
+	.circle {
+		transform: translateX(-110%);
+	}
+	.contentMain {
+		width: 80%;
+		margin-top: 12rem;
+	}
+	.modeContent .whitedot1 {
+		transform: translateY(-110%);
+	}
+	.modeContent .whitedot2 {
+		transform: translateY(-110%);
+	}
+	.modeContent .whitedot3 {
+		transform: translateY(110%);
+	}
+	.modeContent .whitedot4 {
+		transform: translateY(110%);
+	}
+	.modeContent h1 {
+		font-size: 2rem;
+	}
+}
+@media (max-width:500px) {
+	
+	.title {
+		font-size: 2.5rem;
+	}
+	.options a {
+		font-size: 1.5rem;
+	}
+	.circle {
+		transform: translateX(-100%);
+	}
+	.modeContent h1 {
+		font-size: 1rem;
+	}
+}
+@media (max-width:400px) {
+
+	.circle {
+		transform: translateX(-90%);
+	}
 	
 }
