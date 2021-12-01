@@ -386,10 +386,11 @@ nav ul li a {
   left: none;
   width: none;
   height: none;
+  z-index: -1;
 }
 .image-border1 {
   position: absolute;
-  border: 10px solid black;
+  background: url("../images/img5.jpeg") center/contain no-repeat;
   width: 30%;
   top: 25%;
   height: 10rem;
@@ -397,7 +398,7 @@ nav ul li a {
 }
 .image-border2 {
   position: absolute;
-  border: 10px solid black;
+  background: url("../images/img6.jpeg") center/contain no-repeat;
   width: 30%;
   height: 10rem;
   right: 25%;
