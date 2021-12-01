@@ -506,8 +506,8 @@ body {
 
 .about .bottom img {
 	width: 50%;
-	height: 100%;
 	border-radius: 5px;
+	height: fit-content;
 }
 
 .about .bottom div {
@@ -867,4 +867,40 @@ body {
 	border-radius: 10px;
 	color: white;
 	padding: 0.3rem;
+}
+
+@media (max-width: 1000px) {
+	.center-hero {
+		width: 50vw;
+		height: 30vw;
+	}
+
+	.hero .top-left .large {
+		height: 14vw;
+		width: 18vw;
+	}
+
+	.hero .top-left .small {
+		height: 9vw;
+		width: 14vw;
+	}
+
+	.hero .top-right .large {
+		height: 10vw;
+		width: 16vw;
+	}
+	.hero .top-right .small {
+		height: 10vw;
+		width: 12vw;
+	}
+
+	.hero .bottom .bottom-right-2 .large {
+		height: 11vw;
+		width: 14vw;
+	}
+
+	.hero .bottom .bottom-right-2 .small {
+		height: 8vw;
+		width: 12vw;
+	}
 }
