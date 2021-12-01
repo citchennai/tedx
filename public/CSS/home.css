@@ -903,4 +903,9 @@ body {
 		height: 8vw;
 		width: 12vw;
 	}
+
+	.hero .bottom .bottom-left .small {
+		height: 8vw;
+		width: 11vw;
+	}
 }
