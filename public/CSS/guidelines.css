@@ -76,13 +76,12 @@ body {
 .modeContent .whitedot1 {
 	position: absolute;
 	left: 0;
-	transform: translateY(-80%);
+	transform: translateY(-90%);
 }
 .modeContent .whitedot2 {
 	position: absolute;
 	right: 0;
-	top: 0;
-	transform: translateY(-80%);
+	transform: translateY(-90%);
 	
 }
 .modeContent .whitedot2 img {
@@ -120,7 +119,7 @@ body {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10rem;
+	
 
 }
 .contentBox p {
@@ -174,7 +173,7 @@ body {
 	top: 50%;
 	left: 0%;
 	transform: translateY(-50%);
-	transform: translateX(-160%);
+	transform: translateX(-170%);
 	font-weight: 600;
 	font-size: 1.2rem;
 	
@@ -187,7 +186,7 @@ body {
 	padding: .25rem;
 	
 }
-@media (max-width: 1350px) {
+@media (max-width: 1400px) {
 	.circle {
 		transform: translateX(-150%);
 	}
@@ -209,11 +208,11 @@ body {
 	}
 	
 	.circle {
-		transform: translateX(-110%);
+		transform: translateX(-130%);
 	}
 	.contentMain {
 		width: 80%;
-		margin-top: 12rem;
+		
 	}
 	.modeContent .whitedot1 {
 		transform: translateY(-110%);
@@ -231,6 +230,11 @@ body {
 		font-size: 2rem;
 	}
 }
+@media (max-width:650px) {
+	.circle {
+		transform: translateX(-110%);
+	}
+}
 @media (max-width:500px) {
 	
 	.title {
@@ -243,7 +247,10 @@ body {
 		transform: translateX(-100%);
 	}
 	.modeContent h1 {
-		font-size: 1rem;
+		font-size: 1.5rem;
+	}
+	.contentBox P {
+		margin-left: 5%;
 	}
 }
 @media (max-width:400px) {
@@ -251,5 +258,7 @@ body {
 	.circle {
 		transform: translateX(-90%);
 	}
-	
+	.modeContent h1 {
+		font-size: 1.2rem;
+	}
 }
