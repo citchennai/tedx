@@ -31,11 +31,22 @@ body {
   justify-content: center;
 }
 
-nav {
-  background-color: rgb(255, 255, 255);
+.nav {
+	background-color: rgba(255, 255, 255, 0.35) !important;
 }
-nav ul li a {
-  color: black;
+
+.nav .nav-title img {
+	width: 22rem;
+	margin-left: 4rem;
+}
+
+.nav .nav-links a {
+	color: rgb(0, 0, 0) !important;
+}
+
+.nav .nav-links a.join {
+	color: black !important;
+	padding: 0.5rem 1.5rem;
 }
 
 .second-nav ul {
@@ -386,10 +397,11 @@ nav ul li a {
   left: none;
   width: none;
   height: none;
+  z-index: -1;
 }
 .image-border1 {
   position: absolute;
-  border: 10px solid black;
+  background: url("../images/img5.jpeg") center/contain no-repeat;
   width: 30%;
   top: 25%;
   height: 10rem;
@@ -397,7 +409,7 @@ nav ul li a {
 }
 .image-border2 {
   position: absolute;
-  border: 10px solid black;
+  background: url("../images/img6.jpeg") center/contain no-repeat;
   width: 30%;
   height: 10rem;
   right: 25%;

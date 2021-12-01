@@ -18,12 +18,18 @@
 	float: left;
 	object-fit: cover;
 }
+.nav-section
+{
+	position: relative;
+}
 
 .nav {
 	/* height: 50px; */
+	top: 0;
+	z-index: 1000000000000000000000;
 	width: 100%;
 	background-color: #ffffff;
-	position: relative;
+	position: fixed;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
