@@ -716,8 +716,7 @@ body {
   .mission-section {
     display: none;
   }
-  .section-first-content-about h1
-  {
+  .section-first-content-about h1 {
     font-size: 2rem;
   }
   .mission-section-mobile {
@@ -801,22 +800,9 @@ body {
   .image-speaker-content {
     top: 70%;
   }
-  .event-organizers-content
-  {
+  .event-organizers-content {
     width: 85%;
   }
-
-
-
-
-
-
-
-
-
-
-
-
 
   .images-speakers-main-div {
     grid-template-columns: repeat(1, 1fr);
@@ -830,21 +816,17 @@ body {
     width: 80%;
     left: 0%;
   }
-  .image-organizer
-  {
+  .image-organizer {
     width: 100%;
   }
 
-  footer .body
-  {
+  footer .body {
     flex-direction: column;
   }
-  footer table
-  {
+  footer table {
     margin-top: 5%;
   }
-  footer .footer ul
-  {
+  footer .footer ul {
     width: 90%;
   }
 }

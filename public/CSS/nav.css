@@ -4,9 +4,17 @@
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 }
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #ec1015;
+	border-radius: 3px;
+}
 
 .image-tedx {
-	width: 100%;
+	width: 80%;
 	float: left;
 	object-fit: cover;
 }
