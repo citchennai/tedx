@@ -783,7 +783,8 @@ body {
 	border-radius: 15px;
 	z-index: 2;
 	position: absolute;
-	background: #e0e0e0;
+	background: url(../images/home/WhatsApp\ Image\ 2021-12-01\ at\ 8.47.16\ PM.jpeg)
+		center/cover;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .our-speakers .card:nth-of-type(1) > div > span {
@@ -819,7 +820,8 @@ body {
 	border-radius: 15px;
 	z-index: 2;
 	position: absolute;
-	background: #e0e0e0;
+	background: url(../images/home/WhatsApp\ Image\ 2021-12-01\ at\ 8.45.02\ PM.jpeg)
+		center/cover;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .our-speakers .card:nth-of-type(2) > div > span {
@@ -855,7 +857,7 @@ body {
 	border-radius: 15px;
 	z-index: 2;
 	position: absolute;
-	background: #e0e0e0;
+	background: url('../images/home/IMG20210823132052.jpg') center/cover;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 .our-speakers .card:nth-of-type(3) > div > span {
