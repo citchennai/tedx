@@ -18,8 +18,7 @@
 	float: left;
 	object-fit: cover;
 }
-.nav-section
-{
+.nav-section {
 	position: relative;
 }
 
@@ -104,13 +103,14 @@
 	color: #f1ff39 !important;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
 	.nav > .nav-btn {
 		display: inline-block;
 		position: absolute;
-		right: 0px;
-		top: 0px;
-		margin: 3%;
+		right: 3rem;
+		/* top: 0px; */
+		/* margin: 3%; */
+		/* margin-right: 10%; */
 		background: #000;
 	}
 	.nav > .nav-btn > label {
