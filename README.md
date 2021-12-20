@@ -1,4 +1,0 @@
-# TEDx-COUNTDOWN
-
-
-
