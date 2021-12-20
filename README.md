@@ -1,5 +1,7 @@
 # TEDxChennaiInstituteOfTechnology
 
+![TEDx logo](https://user-images.githubusercontent.com/72182858/146773230-eedc3829-27cb-40ec-9452-a747a762e649.png)
+
 [![Website status](https://img.shields.io/website-up-down-green-red/https/tedxjmi.netlify.com.svg?label=Website%20status&style=for-the-badge)](https://citchennai.github.io/tedx/)
 
 > Event website for Countdown TEDxChennaiInstituteOfTechnology 2021
@@ -9,3 +11,4 @@ TED is a nonprofit devoted to spreading ideas, usually in the form of short, pow
 ## License
 
 This project is licensed under the terms of the [MIT license](LICENSE).
+
