@@ -10,7 +10,7 @@ footer {
 
 footer table {
 	width: 50%;
-	text-align: center;
+	text-align: left;
 }
 
 footer .body {
@@ -26,6 +26,11 @@ footer th {
 	font-weight: 500;
 }
 
+footer th:nth-of-type(2) {
+	text-align: center;
+	transform: translateX(-12%);
+}
+
 footer td {
 	font-weight: 200;
 }
@@ -35,12 +40,13 @@ footer td {
 	color: black;
 	font-size: 1.2rem;
 	font-weight: 600;
+	position: relative;
+	left: 5%;
 	background-color: #f0fe39;
 	padding: 0.1rem 1rem;
 	border-radius: 5px;
 }
-footer a
-{
+footer a {
 	text-decoration: none;
 	color: white;
 }
@@ -98,7 +104,6 @@ footer .footer ul li a {
 	text-decoration: none;
 }
 
-.privacy-policy
-{
+.privacy-policy {
 	z-index: 10000;
 }

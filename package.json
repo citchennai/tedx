@@ -1,0 +1,21 @@
+{
+	"name": "tedx",
+	"version": "1.0.0",
+	"description": "![TEDx logo](https://user-images.githubusercontent.com/72182858/146773230-eedc3829-27cb-40ec-9452-a747a762e649.png)",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"git": "git add . && git commit -m 'Changes' && git push origin main"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/citchennai/tedx.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/citchennai/tedx/issues"
+	},
+	"homepage": "https://github.com/citchennai/tedx#readme"
+}
