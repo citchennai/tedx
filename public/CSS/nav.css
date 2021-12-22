@@ -24,7 +24,6 @@
 
 .nav {
 	/* height: 50px; */
-	top: 0;
 	z-index: 1000000000000000000000;
 	width: 100%;
 	background-color: #ffffff;
@@ -33,6 +32,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	transition: all 0.3s ease-in-out;
 }
 .nav a.active {
 	border-bottom: 2px solid #ec1015;
