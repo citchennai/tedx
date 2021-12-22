@@ -33,21 +33,21 @@ body {
 }
 
 .nav {
-	background-color: rgba(255, 255, 255, 0.35) !important;
+  background-color: rgba(255, 255, 255, 0.35) !important;
 }
 
 .nav .nav-title img {
-	width: 22rem;
-	margin-left: 4rem;
+  width: 22rem;
+  margin-left: 4rem;
 }
 
 .nav .nav-links a {
-	color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .nav .nav-links a.join {
-	color: black !important;
-	padding: 0.5rem 1.5rem;
+  color: black !important;
+  padding: 0.5rem 1.5rem;
 }
 
 .second-nav ul {
@@ -229,7 +229,7 @@ body {
 }
 .heading-right-div .paragraph-on-image {
   position: absolute;
-  top: 6rem;
+  top: 8rem;
   width: 67%;
   left: 18rem;
   font-size: 1.5rem;
@@ -247,10 +247,11 @@ body {
 } */
 
 .paragraph-on-image-left {
-  top: 9rem;
+  top: 8rem;
   left: -10rem;
   position: absolute;
   width: 67%;
+  height: 32%;
   font-size: 1.5rem;
   font-family: "Encode Sans", sans-serif;
   color: white;
@@ -499,6 +500,23 @@ body {
   /* border-radius: 10px; */
 }
 
+.atag-last-time-speakers {
+  width: 100%;
+  height:20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.atag-last-time-speakers a {
+  background-color: var(--heading);
+  font-size: 1.3rem;
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .images-speakers-main-div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -535,7 +553,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 4%;
+  /* margin-top: 4%; */
 }
 .three-dots-div-start {
   display: flex;
