@@ -229,7 +229,7 @@ body {
 }
 .heading-right-div .paragraph-on-image {
   position: absolute;
-  top: 6rem;
+  top: 8rem;
   width: 67%;
   left: 18rem;
   font-size: 1.5rem;
@@ -247,10 +247,11 @@ body {
 } */
 
 .paragraph-on-image-left {
-  top: 9rem;
+  top: 8rem;
   left: -10rem;
   position: absolute;
   width: 67%;
+  height: 32%;
   font-size: 1.5rem;
   font-family: "Encode Sans", sans-serif;
   color: white;
