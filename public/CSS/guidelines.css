@@ -131,7 +131,7 @@ body {
 	
 	display: flex;
 	flex-direction: row;
-	
+	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
 	color: #C4C4C4;
@@ -177,9 +177,9 @@ body {
 	color: black;
 	border-radius: 50%;
 	position: absolute;
-	top: 50%;
+	/* top: 50%; */
 	left: 0%;
-	transform: translateY(-50%);
+	/* transform: translateY(-50%); */
 	transform: translateX(-170%);
 	font-weight: 600;
 	font-size: 1.2rem;
@@ -261,6 +261,7 @@ body {
 		position: relative;
 		margin: 1rem 0rem;
 		font-weight: 600;
+		
 	}
 	.readMore:hover {
 		background: red;
@@ -271,7 +272,8 @@ body {
 		/* overflow: hidden; */
 		margin-bottom: 1rem;
 		position: relative;
-		transition: all .5s ease-in-out;
+		width: 100%;
+		
 		
 		
 	}
@@ -280,7 +282,7 @@ body {
 		padding: 2rem 2rem .5rem 2rem;
 		height: 250px;
 		overflow: hidden;
-		transition: all .5s ease-in-out;
+		
 	}
 	.pAll::before {
 		content: '';
