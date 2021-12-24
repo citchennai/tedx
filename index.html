@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>TED&#x02E3; - COUNTDOWN</title>
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="./public/CSS/nav.css" />
-		<link rel="stylesheet" href="./public/CSS/footer.css" />
-		<link rel="stylesheet" href="./public/CSS/home.css" />
-	</head>
 
-	<body>
-		<div class="nav">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>TED&#x02E3; - COUNTDOWN</title>
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="./public/CSS/nav.css" />
+	<link rel="stylesheet" href="./public/CSS/footer.css" />
+	<link rel="stylesheet" href="./public/CSS/home.css" />
+</head>
+
+<body>
+	<!-- <div class="nav">
 			<input type="checkbox" id="nav-check" />
 			<div class="nav-header">
 				<div class="nav-title">
@@ -33,158 +36,180 @@
 				<a href="./views/guidelines.html">GUIDELINES</a>
 				<a class="join" href="./views/signup.html">JOIN US</a>
 			</div>
+		</div> -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">
+				<div class="nav-title">
+					<img src="../public/images/Logo.png" alt="tedx" />
+				</div>
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="../index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="./about.html">ABOUT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="./guidelines.html">GUIDELINES</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link atag-join-us" aria-current="page" href="./signup.html">JOIN US</a>
+					</li>
+				</ul>
+			</div>
 		</div>
+	</nav>
+	<!-- HERO -->
 
-		<!-- HERO -->
-
-		<section class="hero">
-			<div class="top-left">
+	<section class="hero">
+		<div class="top-left">
+			<div class="large" data-speed="3"></div>
+			<div class="small" data-speed="5"></div>
+		</div>
+		<div class="top-right">
+			<div class="large" data-speed="3"></div>
+			<div class="small" data-speed="5"></div>
+		</div>
+		<div class="center-hero">
+			<div><span>X</span> = Independently organized TED event</div>
+		</div>
+		<div class="bottom">
+			<div class="bottom-left">
 				<div class="large" data-speed="3"></div>
 				<div class="small" data-speed="5"></div>
 			</div>
-			<div class="top-right">
+			<div class="bottom-left-2">
+				<div class="large" data-speed="3"></div>
+			</div>
+			<div class="bottom-right">
 				<div class="large" data-speed="3"></div>
 				<div class="small" data-speed="5"></div>
 			</div>
-			<div class="center-hero">
-				<div><span>X</span> = Independently organized TED event</div>
+			<div class="bottom-right-2">
+				<div class="large" data-speed="3"></div>
+				<div class="small" data-speed="5"></div>
 			</div>
-			<div class="bottom">
-				<div class="bottom-left">
-					<div class="large" data-speed="3"></div>
-					<div class="small" data-speed="5"></div>
-				</div>
-				<div class="bottom-left-2">
-					<div class="large" data-speed="3"></div>
-				</div>
-				<div class="bottom-right">
-					<div class="large" data-speed="3"></div>
-					<div class="small" data-speed="5"></div>
-				</div>
-				<div class="bottom-right-2">
-					<div class="large" data-speed="3"></div>
-					<div class="small" data-speed="5"></div>
-				</div>
+		</div>
+	</section>
+	<section class="begins">
+		<div class="bottom">
+			0 :
+			<div>
+				<span class="span5">5</span>
+				<span class="span4">4</span>
+				<span class="span3">3</span>
+				<span class="span2">2</span>
+				<span class="span1">1</span>
+				<span class="span0">0</span>
 			</div>
-		</section>
-		<section class="begins">
-			<div class="bottom">
-				0 :
-				<div>
-					<span class="span5">5</span>
-					<span class="span4">4</span>
-					<span class="span3">3</span>
-					<span class="span2">2</span>
-					<span class="span1">1</span>
-					<span class="span0">0</span>
-				</div>
-			</div>
-			<div class="top">
-				<div><span>COUNT</span><span>DOWN</span></div>
-			</div>
-		</section>
+		</div>
+		<div class="top">
+			<div><span>COUNT</span><span>DOWN</span></div>
+		</div>
+	</section>
 
-		<section class="view-event">
-			<div class="left">
-				<span class="content">ITS </span><span class="content">NOW </span
-				><span class="content">OR</span>
-				<span class="content">NEVER</span>
-			</div>
-			<div class="right">
-				<h1><span>COUNT</span>DOWN</h1>
-				<p>
-					Countdown is a global initiative to educate the public about adverse
-					effects of climate change and the need to protect the earth, to build
-					a better future by cutting greenhouse gas emissions in half by 2030 in
-					the race to the zero-carbon world - the world that is safer, cleaner
-					and fairer for everyone. It is a movement open to everyone - and
-					everyone has a vital role to play.
-				</p>
-				<h2>Chennai Institute Of Technology</h2>
-				<h3>PRESENTS</h3>
-				<img src="./public/images/Logo.png" alt="tedx" /><br />
-				<a href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ"
-					>View Event</a
-				>
-			</div>
-		</section>
+	<section class="view-event">
+		<div class="left">
+			<span class="content">ITS </span><span class="content">NOW </span><span class="content">OR</span>
+			<span class="content">NEVER</span>
+		</div>
+		<div class="right">
+			<h1><span>COUNT</span>DOWN</h1>
+			<p>
+				Countdown is a global initiative to educate the public about adverse
+				effects of climate change and the need to protect the earth, to build
+				a better future by cutting greenhouse gas emissions in half by 2030 in
+				the race to the zero-carbon world - the world that is safer, cleaner
+				and fairer for everyone. It is a movement open to everyone - and
+				everyone has a vital role to play.
+			</p>
+			<h2>Chennai Institute Of Technology</h2>
+			<h3>PRESENTS</h3>
+			<img src="./public/images/Logo.png" alt="tedx" /><br />
+			<a href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ">View Event</a>
+		</div>
+	</section>
 
-		<section class="about">
-			<img src="./public/images/dots2.png" alt="" />
-			<img src="./public/images/dots2.png" alt="" />
-			<img src="./public/images/dots2.png" alt="" />
-			<img src="./public/images/dots2.png" alt="" />
-			<div class="top">
-				<h1>ABOUT TEDx</h1>
+	<section class="about">
+		<img src="./public/images/dots2.png" alt="" />
+		<img src="./public/images/dots2.png" alt="" />
+		<img src="./public/images/dots2.png" alt="" />
+		<img src="./public/images/dots2.png" alt="" />
+		<div class="top">
+			<h1>ABOUT TEDx</h1>
+			<p>
+				In the spirit of ideas worth spreading, TEDx is a program of local,
+				self-organized events that bring people together to share a TED-like
+				experience. At a TEDx event, TEDTalks video and live speakers combine
+				to spark deep discussion and connection in a small group. These local,
+				self-organized events are branded TEDx, where x = independently
+				organized TED event. The TED Conference provides general guidance for
+				the TEDx program, but individual TEDx events are self-organized.
+			</p>
+			<br />
+			<p>
+				TEDx was created in the spirit of TED's mission, "ideas worth
+				spreading." It supports independent organizers who want to create a
+				TED-like event in their own community. These local, self-organized
+				events are branded TEDx, where x = independently organized TED event.
+				At TEDx events, a screening of TED Talks videos — or a combination of
+				live presenters and TED Talks videos — sparks deep conversation and
+				connections at the local level. TEDx events are planned and
+				coordinated independently, under a free license granted by TED. TEDx
+				events are non-profit, but may use an admission fee or commercial
+				sponsorship to cover costs. Similarly, speakers are not paid. They
+				must also relinquish the copyrights to their materials, which TED may
+				edit and distribute under a Creative Commons license.
+			</p>
+		</div>
+		<div class="bottom">
+			<img src="./public/images/home/about.png" alt="About" />
+			<div>
+				<h1>GET INVOLVED</h1>
+				<p>Take action on Climate Change</p>
+				<br />
+
 				<p>
-					In the spirit of ideas worth spreading, TEDx is a program of local,
-					self-organized events that bring people together to share a TED-like
-					experience. At a TEDx event, TEDTalks video and live speakers combine
-					to spark deep discussion and connection in a small group. These local,
-					self-organized events are branded TEDx, where x = independently
-					organized TED event. The TED Conference provides general guidance for
-					the TEDx program, but individual TEDx events are self-organized.
+					Tune into the global livestream by joining us live on Dec30th for an
+					informative and timely event laying out a realistic pathway to a
+					net-zero future.
 				</p>
 				<br />
-				<p>
-					TEDx was created in the spirit of TED's mission, "ideas worth
-					spreading." It supports independent organizers who want to create a
-					TED-like event in their own community. These local, self-organized
-					events are branded TEDx, where x = independently organized TED event.
-					At TEDx events, a screening of TED Talks videos — or a combination of
-					live presenters and TED Talks videos — sparks deep conversation and
-					connections at the local level. TEDx events are planned and
-					coordinated independently, under a free license granted by TED. TEDx
-					events are non-profit, but may use an admission fee or commercial
-					sponsorship to cover costs. Similarly, speakers are not paid. They
-					must also relinquish the copyrights to their materials, which TED may
-					edit and distribute under a Creative Commons license.
-				</p>
+				<a href="./views/signup.html">JOIN</a>
 			</div>
-			<div class="bottom">
-				<img src="./public/images/home/about.png" alt="About" />
-				<div>
-					<h1>GET INVOLVED</h1>
-					<p>Take action on Climate Change</p>
-					<br />
+		</div>
+	</section>
 
-					<p>
-						Tune into the global livestream by joining us live on Dec30th for an
-						informative and timely event laying out a realistic pathway to a
-						net-zero future.
-					</p>
-					<br />
-					<a href="./views/signup.html">JOIN</a>
-				</div>
-			</div>
-		</section>
-
-		<section class="past-events">
-			<!-- <img src="./public/images/whitedots.png" alt="" />
+	<section class="past-events">
+		<!-- <img src="./public/images/whitedots.png" alt="" />
 			<img src="./public/images/whitedots.png" alt="" />
 			<img src="./public/images/whitedots.png" alt="" />
 			<img src="./public/images/whitedots.png" alt="" /> -->
-			<h1>
-				<img src="./public/images/three-dots-color.png" alt="" />OUR &nbsp;<span
-					>PAST EVENTS</span
-				><img src="./public/images/three-dots-color.png" alt="" />
-			</h1>
-			<div>
-				<span></span>
-				<div class="card">
-					<h1>EVENT NAME</h1>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-						consequat id lorem eu fringilla. Donec pulvinar tellus id est
-						gravida, eu pellentesque nulla sagittis. Nunc pretium diam in felis
-						congue
-					</p>
-					<br /><a
-						href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ"
-						>Watch now</a
-					>
-				</div>
-				<!-- <div class="card">
+		<h1>
+			<img src="./public/images/three-dots-color.png" alt="" />OUR &nbsp;<span>PAST EVENTS</span><img
+				src="./public/images/three-dots-color.png" alt="" />
+		</h1>
+		<div>
+			<span></span>
+			<div class="card">
+				<h1>EVENT NAME</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+					consequat id lorem eu fringilla. Donec pulvinar tellus id est
+					gravida, eu pellentesque nulla sagittis. Nunc pretium diam in felis
+					congue
+				</p>
+				<br /><a href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ">Watch now</a>
+			</div>
+			<!-- <div class="card">
 				<h1>EVENT NAME</h1>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
@@ -204,129 +229,117 @@
 				</p>
 				<br /><a href="/">Watch now</a>
 			</div> -->
-			</div>
-			<h2>Discover more</h2>
-		</section>
+		</div>
+		<h2>Discover more</h2>
+	</section>
 
-		<section class="our-speakers">
-			<h1>OUR &nbsp;<span>SPEAKERS</span></h1>
-			<div>
-				<img src="./public/images/three-dots.png" alt="" />
-				<img src="./public/images/three-dots.png" alt="" />
-				<img src="./public/images/three-dots.png" alt="" />
-				<img src="./public/images/three-dots.png" alt="" />
-				<div class="content">
-					<p>
-						TEDxChennaiInstituteOfTechnology Countdown will have minds from
-						various walks of life, coming together to take the first step
-						towards an exquisite future.
-					</p>
-					<br /><br />
-					<a href="https://www.ted.com/tedx/events/46199">View more</a>
-				</div>
-				<div class="center">
-					<div class="card">
-						<img src="./public/images/dots2.png" alt="" />
-						<div></div>
-					</div>
-					<div class="card">
-						<img src="./public/images/dots2.png" alt="" />
-						<div></div>
-					</div>
+	<section class="our-speakers">
+		<h1>OUR &nbsp;<span>SPEAKERS</span></h1>
+		<div>
+			<img src="./public/images/three-dots.png" alt="" />
+			<img src="./public/images/three-dots.png" alt="" />
+			<img src="./public/images/three-dots.png" alt="" />
+			<img src="./public/images/three-dots.png" alt="" />
+			<div class="content">
+				<p>
+					TEDxChennaiInstituteOfTechnology Countdown will have minds from
+					various walks of life, coming together to take the first step
+					towards an exquisite future.
+				</p>
+				<br /><br />
+				<a href="https://www.ted.com/tedx/events/46199">View more</a>
+			</div>
+			<div class="center">
+				<div class="card">
+					<img src="./public/images/dots2.png" alt="" />
+					<div></div>
 				</div>
 				<div class="card">
 					<img src="./public/images/dots2.png" alt="" />
 					<div></div>
 				</div>
 			</div>
-		</section>
-
-		<!-- FOOTER -->
-
-		<footer>
-			<div class="body">
-				<a class="footer-atag" href="./views/signup.html">JOIN US</a>
-				<table>
-					<thead>
-						<tr>
-							<th>About TEDx</th>
-							<th colspan="2">CONTACT</th>
-							<!-- <th>Organizing Team</th> -->
-							<!-- <th>Speakers</th> -->
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<a
-									href="https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy"
-									>TED Talks Usage Policy</a
-								>
-							</td>
-							<td>Babu Charles</td>
-							<td>7358734561</td>
-							<!-- <td>Web Team</td> -->
-							<!-- <td>NAME</td> -->
-						</tr>
-						<tr>
-							<td>
-								<a
-									href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy"
-									>Privacy Policy</a
-								>
-							</td>
-							<td>Rohith</td>
-							<td>7397385494</td>
-							<!-- <td>Design Team</td> -->
-							<!-- <td>NAME</td> -->
-						</tr>
-						<tr>
-							<td><a href="https://support.ted.com/">Help</a></td>
-							<td>Naparajith</td>
-							<td>7550184309</td>
-							<!-- <td>NAME</td> -->
-							<!-- <td>NAME</td> -->
-						</tr>
-					</tbody>
-				</table>
+			<div class="card">
+				<img src="./public/images/dots2.png" alt="" />
+				<div></div>
 			</div>
-			<div class="footer">
-				<ul>
-					<li>
-						<a
-							href="https://www.facebook.com/profile.php?id=100073719521869"
-							target="_blank"
-							>Facebook</a
-						>
-					</li>
-					<li>
-						<a
-							href="https://www.instagram.com/tedxchennaiinstituteoftech_/"
-							target="_blank"
-							>Instagram</a
-						>
-					</li>
-					<li>
-						<a href="https://twitter.com/CitTedx" target="_blank">Twitter</a>
-					</li>
-				</ul>
-				<p class="privacy-policy">
-					@Chennai India, Inc. All rights reserved /
-					<a
-						href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy"
-						>Privacy</a
-					>
-					/ <a href="./views/signup.html">Contact</a> /
-					<a href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ"
-						>Press</a
-					>
-				</p>
-			</div>
-		</footer>
+		</div>
+	</section>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
-		<script src="./public/JS/index.js"></script>
-		<script src="./public/JS/nav.js"></script>
-	</body>
+	<!-- FOOTER -->
+
+	<footer>
+		<div class="body">
+			<a class="footer-atag" href="./views/signup.html">JOIN US</a>
+			<table>
+				<thead>
+					<tr>
+						<th>About TEDx</th>
+						<th colspan="2">CONTACT</th>
+						<!-- <th>Organizing Team</th> -->
+						<!-- <th>Speakers</th> -->
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a
+								href="https://www.ted.com/about/our-organization/our-policies-terms/ted-talks-usage-policy">TED
+								Talks Usage Policy</a>
+						</td>
+						<td>Babu Charles</td>
+						<td>7358734561</td>
+						<!-- <td>Web Team</td> -->
+						<!-- <td>NAME</td> -->
+					</tr>
+					<tr>
+						<td>
+							<a href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy">Privacy
+								Policy</a>
+						</td>
+						<td>Rohith</td>
+						<td>7397385494</td>
+						<!-- <td>Design Team</td> -->
+						<!-- <td>NAME</td> -->
+					</tr>
+					<tr>
+						<td><a href="https://support.ted.com/">Help</a></td>
+						<td>Naparajith</td>
+						<td>7550184309</td>
+						<!-- <td>NAME</td> -->
+						<!-- <td>NAME</td> -->
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="footer">
+			<ul>
+				<li>
+					<a href="https://www.facebook.com/profile.php?id=100073719521869" target="_blank">Facebook</a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/tedxchennaiinstituteoftech_/" target="_blank">Instagram</a>
+				</li>
+				<li>
+					<a href="https://twitter.com/CitTedx" target="_blank">Twitter</a>
+				</li>
+			</ul>
+			<p class="privacy-policy">
+				@Chennai India, Inc. All rights reserved /
+				<a href="https://www.ted.com/about/our-organization/our-policies-terms/privacy-policy">Privacy</a>
+				/ <a href="./views/signup.html">Contact</a> /
+				<a href="https://www.youtube.com/channel/UCdqwOoGrg2eiRVrSOvrP-FQ">Press</a>
+			</p>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+	<script src="./public/JS/index.js"></script>
+	<script src="./public/JS/nav.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
+</body>
+
 </html>
