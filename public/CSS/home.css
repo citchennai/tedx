@@ -33,6 +33,23 @@
 	border-radius: 3px;
 }
 
+.nav {
+	background-color: rgba(35, 35, 35, 0.35) !important;
+}
+
+.nav .nav-title img {
+	width: 18rem;
+	margin-left: 4rem;
+}
+
+.nav .nav-links a {
+	color: #fff !important;
+}
+
+.nav .nav-links a.join {
+	color: black !important;
+	padding: 0.5rem 1.5rem;
+}
 
 body {
 	background-color: #0e0d0d;
