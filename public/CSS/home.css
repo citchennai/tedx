@@ -104,6 +104,7 @@ body {
 
 .hero .bottom .bottom-right-2 .small {
 	animation: hero-small-2 2s linear infinite alternate;
+	
 }
 
 @keyframes hero-large-1 {
