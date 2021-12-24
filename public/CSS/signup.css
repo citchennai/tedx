@@ -360,6 +360,7 @@ form p {
 	}
 	form input {
 		width: 90%;
+		font-size: 1.2rem;
 	}
 	.first {
 		width: 50%;
@@ -379,6 +380,9 @@ form p {
 }
 @media (max-width: 600px) {
 	form label {
+		font-size: 1rem;
+	}
+	form input {
 		font-size: 1rem;
 	}
 	form p {

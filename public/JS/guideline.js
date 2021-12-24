@@ -36,3 +36,51 @@ readbtn.forEach(btn => {
         
     })
 })
+
+const animate =(class1) => {
+ 
+gsap.timeline(
+    {
+        scrollTrigger: {
+			trigger: class1,
+			start: 'top 70%',
+
+         
+            
+            // scrub: true,
+            // pin: true
+
+		}
+    }
+).to(class1,{
+    duration: .3,
+    backgroundColor: 'red',
+    color: 'white',
+    ease: 'ease-in-out'
+
+})
+
+// gsap.timeline(
+//     {
+//         scrollTrigger: {
+// 			trigger: class1,
+// 			start: 'top 30%',
+            
+//             // scrub: true,
+//             // pin: true
+
+// 		}
+//     }
+// ).to(class1,{
+//     duration: .3,
+//     backgroundColor: 'white',
+//     color: 'black',
+//     ease: 'ease-in-out'
+
+// })
+}
+animate('.c1')
+animate('.c2')
+animate('.c3')
+animate('.c4')
+animate('.c5')
