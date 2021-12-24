@@ -117,6 +117,7 @@ body {
 	align-items: center;
 	justify-content: space-around;
 	
+	
 }
 .contentMain {
 	border-left: 3px solid white;
@@ -124,6 +125,9 @@ body {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	
 
 }
@@ -193,6 +197,20 @@ body {
 	padding: .25rem;
 	
 }
+.linkto {
+	text-align: center;
+	position: relative;
+	color: rgb(0, 0, 0);
+	font-size: 1rem;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	background-color: yellow;
+	border-radius: 10px;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+	font-weight: 600;
+	
+
+}
 @media (max-width: 1400px) {
 	.circle {
 		transform: translateX(-150%);
@@ -237,6 +255,12 @@ body {
 		font-size: 2rem;
 	}
 }
+@media (max-width: 700px) {
+	.image-tedx
+	{
+		width: 100%;
+	}
+}
 @media (max-width:650px) {
 	.circle {
 		transform: translateX(-110%);
@@ -273,6 +297,8 @@ body {
 		margin-bottom: 1rem;
 		position: relative;
 		width: 100%;
+		
+
 		
 		
 		
