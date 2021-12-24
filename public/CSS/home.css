@@ -978,7 +978,7 @@ body {
 
 	.begins .bottom {
 		font-size: 10rem;
-		margin-left: 3rem;
+		padding-left: 3rem;
 	}
 
 	.view-event {
