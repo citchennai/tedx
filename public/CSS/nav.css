@@ -15,13 +15,22 @@
 
 .nav-title
 {
+	width: 50%;
+	left: 0;
+	height: 100%;
+	position: absolute;
+}
+.nav-title a
+{
 	width: 100%;
+	position: relative;
 	height: 100%;
 }
 
 .nav-title img
 {
-	width: 50%;
+	/* width: 35%; */
+	position: relative;
 	height: 100%;
 }
 
@@ -33,6 +42,7 @@
 .navbar
 {
 	padding-bottom: 0;
+	height: 5rem;
 }
 
 .nav-link
