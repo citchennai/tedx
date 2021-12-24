@@ -27,7 +27,7 @@
 	z-index: 1000000000000000000000;
 	width: 100%;
 	background-color: #ffffff;
-	position: fixed;
+	/* position: fixed; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -107,7 +107,7 @@
 	.nav > .nav-btn {
 		display: inline-block;
 		position: absolute;
-		right: 3rem;
+		right: 1rem;
 		/* top: 0px; */
 		/* margin: 3%; */
 		/* margin-right: 10%; */
@@ -157,7 +157,7 @@
 		align-items: center;
 	}
 	.nav > .nav-header {
-		width: 85%;
+		width: 100%;
 	}
 
 	.nav > .nav-links > a {

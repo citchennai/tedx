@@ -424,6 +424,17 @@ form p {
 	.location {
 		font-size: 1.2rem;
 	}
+	.contactBox {
+		
+		width: 90%;
+	}
+	.inputBox {
+		width: 90%;
+	}
+	.first,.last {
+		width: 48%;
+	}
+	
 }
 @media (max-width: 400px) {
 	.title {

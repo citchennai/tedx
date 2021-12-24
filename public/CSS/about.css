@@ -19,7 +19,7 @@ body {
   overscroll-behavior: none;
   overflow-x: hidden;
   overflow-y: scroll;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .container {
@@ -37,8 +37,14 @@ body {
 }
 
 .nav .nav-title img {
-  width: 22rem;
-  margin-left: 4rem;
+  width: 18rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* margin-left: 4rem; */
 }
 
 .nav .nav-links a {
