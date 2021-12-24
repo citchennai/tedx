@@ -255,6 +255,12 @@ body {
 		font-size: 2rem;
 	}
 }
+@media (max-width: 700px) {
+	.image-tedx
+	{
+		width: 100%;
+	}
+}
 @media (max-width:650px) {
 	.circle {
 		transform: translateX(-110%);

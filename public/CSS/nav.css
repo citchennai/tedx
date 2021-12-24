@@ -14,7 +14,7 @@
 }
 
 .image-tedx {
-	width: 80%;
+	width: 50%;
 	float: left;
 	object-fit: cover;
 }
@@ -27,7 +27,7 @@
 	z-index: 1000000000000000000000;
 	width: 100%;
 	background-color: #ffffff;
-	position: fixed;
+	position: relative;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -46,7 +46,7 @@
 	height: 5rem;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: center;
 	align-items: flex-start;
 }
 
@@ -107,11 +107,12 @@
 	.nav > .nav-btn {
 		display: inline-block;
 		position: absolute;
-		right: 3rem;
+		right: 0.5rem;
 		/* top: 0px; */
 		/* margin: 3%; */
 		/* margin-right: 10%; */
 		background: #000;
+		z-index: 100;
 	}
 	.nav > .nav-btn > label {
 		display: inline-block;
@@ -149,7 +150,9 @@
 		height: 0px;
 	}
 	.nav > #nav-check:checked ~ .nav-links {
-		height: calc(100vh - 50px);
+		/* height: calc(100vh - 50px); */
+		height: 100vh;
+		top: 0;
 		overflow-y: auto;
 		display: flex;
 		flex-direction: column;
