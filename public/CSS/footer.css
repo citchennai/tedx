@@ -88,7 +88,6 @@ footer .footer ul {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 20%;
 	color: #a7a7a7;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -102,6 +101,7 @@ footer .footer ul li a {
 	/* list-style-type: none; */
 	color: #ffffff;
 	text-decoration: none;
+	margin: 0 1rem;
 }
 
 .privacy-policy {

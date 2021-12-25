@@ -17,7 +17,8 @@
 	color: white;
 }
 .nav > .nav-header {
-	width: 33%;
+	width: 20%;
+	margin-left: 2.5rem;
 }
 .image-tedx {
 	background: #fff;
@@ -35,11 +36,12 @@
 
 .nav {
 	background-color: rgba(35, 35, 35, 0.35) !important;
+	position: relative;
 }
 
 .nav .nav-title img {
-	width: 15rem;
-	/* margin-left: 4rem; */
+	width: 100%;
+	margin-top: 1.5rem;
 }
 
 .nav .nav-links a {
@@ -411,7 +413,7 @@ body {
 	position: relative;
 	margin-left: 2rem;
 	overflow: hidden;
-	width: 8rem;
+	width: 10rem;
 	height: 100%;
 }
 
@@ -969,6 +971,10 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
+	.nav > .nav-header {
+		width: 30%;
+	}
+
 	.hero .top-left .large {
 		height: 9rem;
 		width: 11rem;
@@ -994,6 +1000,25 @@ body {
 	.our-speakers > div > .content {
 		position: absolute;
 		transform: translateX(-70%);
+		text-align: center;
+	}
+
+	.about .bottom {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.about .bottom > div {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.about h1 {
+		text-align: center;
 	}
 }
 
@@ -1025,6 +1050,11 @@ body {
 	}
 }
 
+@media screen and (max-width: 750px) {
+	.nav > .nav-links > a {
+		padding: 5px;
+	}
+}
 @media screen and (max-width: 700px) {
 	.hero {
 		height: calc(50vh - 2.5rem);
@@ -1156,6 +1186,14 @@ body {
 	.about .bottom img {
 		display: none;
 	}
+
+	.our-speakers > div {
+		padding: 6rem;
+	}
+
+	.our-speakers {
+		height: 115vh;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -1192,5 +1230,22 @@ body {
 
 	.our-speakers h1 {
 		font-size: 2rem;
+	}
+
+	.our-speakers > div > img {
+		display: none;
+	}
+
+	.our-speakers > div {
+		padding: 3rem;
+	}
+
+	.our-speakers {
+		height: 80vh;
+	}
+
+	.our-speakers > div > .content {
+		width: 100%;
+		padding: 0 2rem;
 	}
 }
