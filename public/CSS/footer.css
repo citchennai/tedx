@@ -107,3 +107,20 @@ footer .footer ul li a {
 .privacy-policy {
 	z-index: 10000;
 }
+
+@media screen and (max-width: 700px) {
+
+
+	footer table {
+		margin-top: 3rem;
+		width: 65%;
+	}
+	footer .body {
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+
+	.footer-atag {
+		margin: 2rem 0;
+	}
+}

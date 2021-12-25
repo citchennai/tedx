@@ -1056,6 +1056,10 @@ body {
 	}
 }
 @media screen and (max-width: 700px) {
+	.nav > .nav-header {
+		width: 40%;
+	}
+
 	.hero {
 		height: calc(50vh - 2.5rem);
 	}
@@ -1146,6 +1150,7 @@ body {
 		right: 10%;
 		bottom: 20%;
 		display: inline-block;
+		font-size: 1rem;
 	}
 
 	.about {
@@ -1166,6 +1171,7 @@ body {
 
 	.about .bottom div {
 		width: 100%;
+		padding: 0;
 	}
 
 	.about .bottom div h1 {
@@ -1187,16 +1193,44 @@ body {
 		display: none;
 	}
 
+	.about .bottom div a {
+		position: static;
+		transform: translateX(0%);
+	}
+
 	.our-speakers > div {
 		padding: 6rem;
 	}
 
 	.our-speakers {
-		height: 115vh;
+		height: 110vh;
+	}
+}
+@media screen and (max-width: 600px) {
+	.center-hero > div {
+		font-size: 1.2rem;
+		transform: translate(-50%, 10%);
+	}
+}
+@media screen and (max-width: 500px) {
+	.center-hero > div {
+		font-size: 1rem;
+		transform: translate(-50%, 10%);
+	}
+	.nav > .nav-header {
+		width: 50%;
 	}
 }
 
 @media screen and (max-width: 400px) {
+	.nav > .nav-header {
+		width: 13rem;
+	}
+
+	.center-hero > div {
+		font-size: 1rem;
+		transform: translate(-50%, 40%);
+	}
 	.begins .bottom {
 		font-size: 7rem;
 		margin-left: 1rem;
