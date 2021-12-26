@@ -22,7 +22,7 @@ body {
 	text-align: center;
 	font-size: 5rem;
 	color: white;
-	margin: 6rem 0rem 3rem 0rem;
+	margin: 6rem 0rem 0rem 0rem;
 }
 
 .options {
@@ -68,10 +68,10 @@ body {
 }
 .modeContent h1 {
 	color: rgb(255, 255, 255);
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	text-align: center;
 	padding: 3rem 0rem;
-	margin: 2rem 0rem;
+	margin:1rem 0rem;
 }
 .modeContent .whitedot1 {
 	position: absolute;
@@ -204,13 +204,23 @@ body {
 	font-size: 1rem;
 	text-decoration: none;
 	padding: .5rem 1rem;
-	background-color: yellow;
+	background: #f1ff39;
 	border-radius: 10px;
 	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
 	font-weight: 600;
 	
 
 }
+.offl {
+	color: #f1ff39;
+	cursor: pointer;
+}
+.linkto:hover {
+	background-color: black;
+	color: #eeff00;
+	
+}
+
 @media (max-width: 1400px) {
 	.circle {
 		transform: translateX(-150%);
