@@ -316,7 +316,7 @@
 }
 
 
-/* FOOTER */
+/* FOOTER
 footer {
   color: white;
   background-color: #272727;
@@ -404,7 +404,7 @@ footer .footer ul {
 
 footer .footer ul li {
   list-style-type: none;
-}
+} */
 
 @media screen and (max-width: 1390px) {
   .youtubespan h1 {

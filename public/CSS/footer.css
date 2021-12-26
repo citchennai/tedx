@@ -41,7 +41,6 @@ footer td {
 	font-size: 1.2rem;
 	font-weight: 600;
 	position: relative;
-	left: 5%;
 	background-color: #f0fe39;
 	padding: 0.1rem 1rem;
 	border-radius: 5px;
@@ -109,8 +108,6 @@ footer .footer ul li a {
 }
 
 @media screen and (max-width: 700px) {
-
-
 	footer table {
 		margin-top: 3rem;
 		width: 65%;
