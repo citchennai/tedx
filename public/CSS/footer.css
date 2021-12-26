@@ -41,7 +41,6 @@ footer td {
 	font-size: 1.2rem;
 	font-weight: 600;
 	position: relative;
-	left: 5%;
 	background-color: #f0fe39;
 	padding: 0.1rem 1rem;
 	border-radius: 5px;
@@ -88,7 +87,6 @@ footer .footer ul {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	width: 20%;
 	color: #a7a7a7;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -102,8 +100,24 @@ footer .footer ul li a {
 	/* list-style-type: none; */
 	color: #ffffff;
 	text-decoration: none;
+	margin: 0 1rem;
 }
 
 .privacy-policy {
 	z-index: 10000;
+}
+
+@media screen and (max-width: 700px) {
+	footer table {
+		margin-top: 3rem;
+		width: 65%;
+	}
+	footer .body {
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+
+	.footer-atag {
+		margin: 2rem 0;
+	}
 }
