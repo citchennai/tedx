@@ -488,7 +488,7 @@ body {
 	font-family: 'Inter', sans-serif;
 	color: rgba(255, 255, 255, 0.75);
 	line-height: 1.5rem;
-	font-size: 1.1vw;
+	font-size: 1.1rem;
 	width: 90%;
 }
 
@@ -1029,7 +1029,6 @@ body {
 
 	.center-hero {
 		z-index: 2;
-		transform: translate(-50%, -50%);
 	}
 
 	.our-speakers .center .card:nth-of-type(1) {
@@ -1068,6 +1067,11 @@ body {
 		height: 50vh;
 	}
 
+	.begins .bottom,
+	.begins .top {
+		transform: translate(-50%, -65%);
+	}
+
 	.hero .top-left,
 	.hero .top-right,
 	.hero .bottom {
@@ -1078,12 +1082,13 @@ body {
 		z-index: 2;
 		height: 45vw;
 		width: 70vw;
+		transform: translate(-50%, -55%);
 	}
 
 	.center-hero > div {
 		color: white;
 		position: absolute;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		width: 100%;
 		bottom: 0;
 		left: 50%;
@@ -1126,7 +1131,7 @@ body {
 	}
 
 	.view-event .right p {
-		font-size: 2vw;
+		font-size: 1rem;
 	}
 
 	.view-event .right h2 {
@@ -1213,12 +1218,28 @@ body {
 	}
 }
 @media screen and (max-width: 500px) {
+	.center-hero {
+		z-index: 2;
+		height: 55vw;
+		width: 88vw;
+		transform: translate(-50%, -55%);
+	}
 	.center-hero > div {
 		font-size: 1rem;
-		transform: translate(-50%, 10%);
+		transform: translate(-40%, 10%);
 	}
 	.nav > .nav-header {
 		width: 50%;
+	}
+	.view-event .right a {
+		position: absolute;
+		right: 10%;
+		bottom: 10%;
+		display: inline-block;
+		font-size: 1rem;
+	}
+	.view-event {
+		height: 110vh;
 	}
 }
 
@@ -1235,13 +1256,33 @@ body {
 		font-size: 7rem;
 		margin-left: 1rem;
 	}
-	.view-event .right a {
-		position: absolute;
-		right: 28%;
-		bottom: 5%;
-		display: inline-block;
+	.begins .bottom,
+	.begins .top {
+		transform: translate(-50%, -80%);
 	}
-
+	.view-event .right a {
+		padding: 0.5rem 2rem;
+		border: 5px solid #ff2e2e;
+		background: rgba(255, 255, 255, 0.1);
+		border-radius: 5px;
+		display: inline-block;
+		text-decoration: none;
+		color: white;
+		bottom: 8%;
+		font-weight: 700;
+		font-size: 0.8rem;
+		font-family: 'Encode Sans';
+		right: 18%;
+	}
+	.begins .bottom > div {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		margin-left: 2rem;
+		overflow: hidden;
+		width: 8rem;
+		height: 100%;
+	}
 	.view-event .right a {
 		padding: 0.5rem 2rem;
 		border: 5px solid #ff2e2e;
