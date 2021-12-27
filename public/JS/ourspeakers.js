@@ -13,7 +13,7 @@ const paginum = (page)=>{
           return Math.floor(Math.random() * (1000 - 100)) + 100;
         },
         pageSize: page,
-        className: 'paginationjs-theme-blue paginationjs-big',
+        className: 'paginationjs-theme-red paginationjs-big',
         ajax: {
           beforeSend: function () {
             $("#data-container").html("Loading images from TEDx...");
