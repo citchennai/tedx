@@ -110,7 +110,7 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	margin: 8% auto;
+	margin: 5% auto;
 	background-color: #2F2F2F;
 	display: flex;
 	flex-direction: column;
@@ -131,6 +131,12 @@ body {
 	
 
 }
+.contentBox:nth-child(1) {
+	margin-top: 0rem;
+	
+
+}
+
 .contentBox p {
 	
 	display: flex;
@@ -208,6 +214,7 @@ body {
 	border-radius: 10px;
 	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
 	font-weight: 600;
+	margin-bottom: 1rem;
 	
 
 }
