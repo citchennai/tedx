@@ -55,8 +55,13 @@
 	font-size: 22px;
 	color: rgb(0, 0, 0);
 	/* width: 40%;
-  height: 5rem; */
+  height: 5rem; */	
 	padding: 10px 10px 10px 10px;
+}
+
+.tedx-img-title
+{
+	width: 80%;
 }
 
 .nav > .nav-btn {
