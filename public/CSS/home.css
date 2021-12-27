@@ -1295,6 +1295,9 @@ body {
 		font-size: 1rem;
 		font-family: 'Encode Sans';
 	}
+	.about {
+		padding: 2rem 3rem;
+	}
 	.about > img {
 		display: none;
 	}
