@@ -397,7 +397,8 @@ form p {
 		font-size: 1rem;
 	}
 	.para1 {
-		font-size: 1rem;
+		
+		margin: 3rem 5%;
 	}
 	.title {
 		font-size: 3rem;
@@ -422,6 +423,9 @@ form p {
 	}
 	.option1 {
 		width: 90%;
+	}
+	.title {
+		margin: 8% 0rem 0rem 5%;
 	}
 	.inputBox2 {
 		width: 90%;
