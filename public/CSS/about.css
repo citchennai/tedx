@@ -646,7 +646,7 @@ body {
   width: 100%;
 }
 .all-image-organizers {
-  width: 90%;
+  width: 100%;
   position: relative;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -671,6 +671,47 @@ body {
   bottom: 0%;
   z-index: 5;
 }
+
+
+.speaker1{
+  background: url("../images/Currentspeakers/Bavana\ A.jpeg") center/cover no-repeat;
+}
+
+.speaker2{
+  background: url("../images/Currentspeakers/Dharshini.P.G.jpeg") center/cover no-repeat;
+}
+
+.speaker3{
+  background: url("../images/Currentspeakers/Hathikal.jpeg") center/cover no-repeat;
+}
+.speaker4{
+  background: url("../images/Currentspeakers/Ibrahim\ M.jpeg") center/cover no-repeat;
+}
+.speaker5{
+  background: url("../images/Currentspeakers/Lalith\ Kishor\ R.jpeg") center/cover no-repeat;
+}
+.speaker6{
+  background: url("../images/Currentspeakers/Pradeep\ K.jpeg") center/cover no-repeat;
+}
+.speaker7{
+  background: url("../images/Currentspeakers/Raghavi.jpeg") center/cover no-repeat;
+}
+.speaker8{
+  background: url("../images/Currentspeakers/Rohit\ Sanjan.jpeg") center/cover no-repeat;
+}
+.speaker9{
+  background: url("../images/Currentspeakers/Sanjith\ T.jpeg") center/cover no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
 .red-div {
   position: absolute;
   background-color: red;
