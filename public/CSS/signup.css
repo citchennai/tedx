@@ -61,7 +61,7 @@
 	border: 5px solid red;
 }
 
-.details {
+.detailss {
 	position: relative;
 	width: fit-content;
 	font-size: 3rem;
@@ -72,7 +72,7 @@
 	padding-bottom: 0.5rem;
 	margin: 2rem 0rem;
 }
-.details span {
+.detailss span {
 	font-size: 6rem;
 
 	border-radius: 50px;
@@ -403,7 +403,7 @@ form p {
 	.title {
 		font-size: 3rem;
 	}
-	.details {
+	.detailss {
 		font-size: 1.5rem;
 	}
 	.btnsubmit {
