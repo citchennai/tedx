@@ -645,110 +645,7 @@ body {
   text-align: center;
   width: 100%;
 }
-.all-image-organizers {
-  width: 100%;
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  left: 5%;
-}
-.image-organizer {
-  width: 75%;
-  height: 25rem;
-  box-shadow: 4px 4px 4px rgba(73, 73, 73, 0.527);
-  margin-top: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  align-items: center;
-}
-.img-organizer {
-  position: relative;
-  background-color: blue;
-  height: 4rem;
-  width: 20%;
-  bottom: 0%;
-  z-index: 5;
-}
 
-
-.speaker1{
-  background: url("../images/Currentspeakers/Bavana\ A.jpeg") center/cover no-repeat;
-}
-
-.speaker2{
-  background: url("../images/Currentspeakers/Dharshini.P.G.jpeg") center/cover no-repeat;
-}
-
-.speaker3{
-  background: url("../images/Currentspeakers/Hathikal.jpeg") center/cover no-repeat;
-}
-.speaker4{
-  background: url("../images/Currentspeakers/Ibrahim\ M.jpeg") center/cover no-repeat;
-}
-.speaker5{
-  background: url("../images/Currentspeakers/Lalith\ Kishor\ R.jpeg") center/cover no-repeat;
-}
-.speaker6{
-  background: url("../images/Currentspeakers/Pradeep\ K.jpeg") center/cover no-repeat;
-}
-.speaker7{
-  background: url("../images/Currentspeakers/Raghavi.jpeg") center/cover no-repeat;
-}
-.speaker8{
-  background: url("../images/Currentspeakers/Rohit\ Sanjan.jpeg") center/cover no-repeat;
-}
-.speaker9{
-  background: url("../images/Currentspeakers/Sanjith\ T.jpeg") center/cover no-repeat;
-}
-
-
-
-
-
-
-
-
-
-
-.red-div {
-  position: absolute;
-  background-color: red;
-  height: 4rem;
-  width: 20%;
-  top: 50%;
-  right: 50%;
-  z-index: 2;
-}
-.grey-div {
-  position: absolute;
-  background-color: rgb(56, 56, 56);
-  height: 4rem;
-  width: 20%;
-  top: 50%;
-  right: 50%;
-  z-index: 2;
-}
-.ted-absolute {
-  position: absolute;
-  z-index: 6;
-  font-size: 4rem;
-  left: 10%;
-  top: 43%;
-  color: var(--heading);
-}
-.x-absolute {
-  position: absolute;
-  z-index: 6;
-  font-size: 4rem;
-  left: -2%;
-  top: 30%;
-}
-.image-organizer-content {
-  text-align: center;
-  padding-top: 10%;
-}
 
 @media (min-width: 1349px) {
   .heading-right-div .paragraph-on-image {
@@ -926,14 +823,6 @@ body {
 
   .event-organizers-h1 {
     font-size: 2rem;
-  }
-  .all-image-organizers {
-    grid-template-columns: 1fr;
-    width: 80%;
-    left: 0%;
-  }
-  .image-organizer {
-    width: 100%;
   }
 
   footer .body {

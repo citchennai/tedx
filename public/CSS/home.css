@@ -444,84 +444,7 @@ body {
 	z-index: 6;
 }
 
-.view-event * {
-	font-family: 'Anton', sans-serif;
-}
 
-.view-event {
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	display: flex;
-}
-
-.view-event .left {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	line-height: 7.5vw;
-	justify-content: center;
-	flex-direction: column;
-	background-color: #f1ff39;
-	font-size: 8vw;
-	padding-left: 10rem;
-}
-
-.view-event .right {
-	width: 50%;
-	height: 100%;
-	padding-left: 4rem;
-	color: white;
-}
-
-.view-event .right h1 {
-	font-size: 5vw;
-	font-weight: 100;
-	text-decoration: line-through black;
-	margin-top: 1rem;
-}
-
-.view-event .right h1 span {
-	color: #f1ff39;
-}
-
-.view-event .right p {
-	font-family: 'Inter', sans-serif;
-	color: rgba(255, 255, 255, 0.75);
-	line-height: 1.5rem;
-	font-size: 1.1rem;
-	width: 90%;
-}
-
-.view-event .right h2 {
-	font-family: 'Encode Sans', sans-serif;
-	margin: 1rem 0;
-	font-size: 2vw;
-}
-
-.view-event .right h3 {
-	font-size: 3vw;
-	font-weight: 100;
-	color: #f1ff39;
-}
-
-.view-event .right img {
-	width: 30vw;
-	margin-top: 1rem;
-}
-
-.view-event .right a {
-	padding: 0.5rem 2rem;
-	border: 5px solid #ff2e2e;
-	background: rgba(255, 255, 255, 0.1);
-	border-radius: 5px;
-	display: inline-block;
-	text-decoration: none;
-	color: white;
-	font-weight: 700;
-	font-size: 1.2rem;
-	font-family: 'Encode Sans';
-}
 
 .about {
 	width: 100%;
@@ -1107,61 +1030,6 @@ body {
 	}
 	.begins {
 		height: calc(50vh - 2.5rem);
-	}
-
-	.view-event {
-		flex-direction: column;
-	}
-	.view-event .left {
-		width: 100%;
-		height: 30%;
-		align-items: center;
-		padding-left: 0rem;
-		flex-direction: row;
-	}
-
-	.view-event .left .content {
-		margin: 0 0.5rem;
-		font-size: 9vw;
-	}
-
-	.view-event .right {
-		width: 100%;
-		height: 70%;
-	}
-
-	.view-event .right h1 {
-		font-size: 5.5vw;
-		font-weight: 100;
-		margin-top: 2.5rem;
-	}
-
-	.view-event .right p {
-		font-size: 1rem;
-	}
-
-	.view-event .right h2 {
-		margin: 1rem 0;
-		font-size: 3vw;
-	}
-
-	.view-event .right h3 {
-		font-size: 4vw;
-		font-weight: 100;
-		color: #f1ff39;
-	}
-
-	.view-event .right img {
-		width: 46vw;
-		margin-top: 1rem;
-	}
-
-	.view-event .right a {
-		position: absolute;
-		right: 10%;
-		bottom: 20%;
-		display: inline-block;
-		font-size: 1rem;
 	}
 
 	.about {

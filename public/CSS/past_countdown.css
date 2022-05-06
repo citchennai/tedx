@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+    --heading: rgb(255, 0, 0);
+    --paragraph: rgba(0, 0, 0, 0.589);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background: #fff !important;
+}
+
+.nav .nav-links a {
+    color: black !important;
+}
+
+.all-image-organizers {
+    background: #fff;
+    left: auto !important;
+    padding-left: 5%;
+}
+
+.view-event * {
+    font-family: "Anton", sans-serif;
+}
+
+.view-event {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.view-event .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    line-height: 7.5vw;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1ff39;
+    font-size: 8vw;
+    padding-left: 10rem;
+}
+
+.view-event .right {
+    width: 50%;
+    height: 100%;
+    padding-left: 4rem;
+    color: white;
+}
+
+.view-event .right h1 {
+    font-size: 5vw;
+    font-weight: 100;
+    text-decoration: line-through black;
+    margin-top: 1rem;
+}
+
+.view-event .right h1 span {
+    color: #f1ff39;
+}
+
+.view-event .right p {
+    font-family: "Inter", sans-serif;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    width: 90%;
+}
+
+.view-event .right h2 {
+    font-family: "Encode Sans", sans-serif;
+    margin: 1rem 0;
+    font-size: 2vw;
+}
+
+.view-event .right h3 {
+    font-size: 3vw;
+    font-weight: 100;
+    color: #f1ff39;
+}
+
+.view-event .right img {
+    width: 30vw;
+    margin-top: 1rem;
+}
+
+.view-event .right a {
+    padding: 0.5rem 2rem;
+    border: 5px solid #ff2e2e;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+    font-family: "Encode Sans";
+}
+
+.all-image-organizers {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    left: 5%;
+}
+.image-organizer {
+    width: 75%;
+    height: 25rem;
+    box-shadow: 4px 4px 4px rgba(73, 73, 73, 0.527);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.img-organizer {
+    position: relative;
+    background-color: blue;
+    height: 4rem;
+    width: 20%;
+    bottom: 0%;
+    z-index: 5;
+}
+
+.speaker1 {
+    background: url("../images/Currentspeakers/Bavana\ A.jpeg") center/cover
+        no-repeat;
+}
+
+.speaker2 {
+    background: url("../images/Currentspeakers/Dharshini.P.G.jpeg") center/cover
+        no-repeat;
+}
+
+.speaker3 {
+    background: url("../images/Currentspeakers/Hathikal.jpeg") center/cover
+        no-repeat;
+}
+.speaker4 {
+    background: url("../images/Currentspeakers/Ibrahim\ M.jpeg") center/cover
+        no-repeat;
+}
+.speaker5 {
+    background: url("../images/Currentspeakers/Lalith\ Kishor\ R.jpeg")
+        center/cover no-repeat;
+}
+.speaker6 {
+    background: url("../images/Currentspeakers/Pradeep\ K.jpeg") center/cover
+        no-repeat;
+}
+.speaker7 {
+    background: url("../images/Currentspeakers/Raghavi.jpeg") center/cover
+        no-repeat;
+}
+.speaker8 {
+    background: url("../images/Currentspeakers/Rohit\ Sanjan.jpeg") center/cover
+        no-repeat;
+}
+.speaker9 {
+    background: url("../images/Currentspeakers/Sanjith\ T.jpeg") center/cover
+        no-repeat;
+}
+
+.red-div {
+    position: absolute;
+    background-color: red;
+    height: 4rem;
+    width: 20%;
+    top: 50%;
+    right: 50%;
+    z-index: 2;
+}
+.grey-div {
+    position: absolute;
+    background-color: rgb(56, 56, 56);
+    height: 4rem;
+    width: 20%;
+    top: 50%;
+    right: 50%;
+    z-index: 2;
+}
+.ted-absolute {
+    position: absolute;
+    z-index: 6;
+    font-size: 4rem;
+    left: 10%;
+    top: 43%;
+    color: var(--heading);
+}
+.x-absolute {
+    position: absolute;
+    z-index: 6;
+    font-size: 4rem;
+    left: -2%;
+    top: 30%;
+}
+.image-organizer-content {
+    text-align: center;
+    padding-top: 10%;
+}
+
+@media (min-width: 1349px) {
+    .event-organizers-content {
+        width: 70%;
+    }
+    .image-organizer {
+        margin-top: 15%;
+    }
+    .line7 {
+        margin: 16% 0% 0% 4%;
+        height: 11rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .event-organizers-h1 {
+        font-size: 2rem;
+    }
+    .all-image-organizers {
+        grid-template-columns: 1fr;
+        width: 80%;
+        left: 0%;
+    }
+    .image-organizer {
+        width: 100%;
+    }
+
+    footer .body {
+        flex-direction: column;
+    }
+    footer table {
+        margin-top: 5%;
+    }
+    footer .footer ul {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .view-event {
+        flex-direction: column;
+    }
+    .view-event .left {
+        width: 100%;
+        height: 30%;
+        align-items: center;
+        padding-left: 0rem;
+        flex-direction: row;
+    }
+
+    .view-event .left .content {
+        margin: 0 0.5rem;
+        font-size: 9vw;
+    }
+
+    .view-event .right {
+        width: 100%;
+        height: 70%;
+    }
+
+    .view-event .right h1 {
+        font-size: 5.5vw;
+        font-weight: 100;
+        margin-top: 2.5rem;
+    }
+
+    .view-event .right p {
+        font-size: 1rem;
+    }
+
+    .view-event .right h2 {
+        margin: 1rem 0;
+        font-size: 3vw;
+    }
+
+    .view-event .right h3 {
+        font-size: 4vw;
+        font-weight: 100;
+        color: #f1ff39;
+    }
+
+    .view-event .right img {
+        width: 46vw;
+        margin-top: 1rem;
+    }
+
+    .view-event .right a {
+        position: absolute;
+        right: 10%;
+        bottom: 20%;
+        display: inline-block;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .view-event .right a {
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+        display: inline-block;
+        font-size: 1rem;
+    }
+    .view-event {
+        height: 110vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .view-event .right a {
+        padding: 0.5rem 2rem;
+        border: 5px solid #ff2e2e;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        bottom: 8%;
+        font-weight: 700;
+        font-size: 0.8rem;
+        font-family: "Encode Sans";
+        right: 18%;
+    }
+    .view-event .right a {
+        padding: 0.5rem 2rem;
+        border: 5px solid #ff2e2e;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: "Encode Sans";
+    }
+}
