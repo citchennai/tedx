@@ -23,7 +23,7 @@ const paginum = (page) => {
             var html = "";
             $.each(data, function (index, detail) {
                 html += `<div class="gridbox-${index} girdbox">
-                      <img src="../public/images/ourspeakers/speakers/${detail}.jpg" class="speakerimg" alt="image">
+                      <img src="../../public/images/ourspeakers/speakers/${detail}.jpg" class="speakerimg" alt="${detail}">
                       </div>`;
             });
             $("#data-container").html(html);
