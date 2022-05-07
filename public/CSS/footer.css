@@ -33,6 +33,7 @@ footer th:nth-of-type(2) {
 
 footer td {
 	font-weight: 200;
+	text-align: center;
 }
 
 .footer-atag {
@@ -110,7 +111,7 @@ footer .footer ul li a {
 @media screen and (max-width: 700px) {
 	footer table {
 		margin-top: 3rem;
-		width: 65%;
+		width: 95%;
 	}
 	footer .body {
 		flex-direction: column-reverse;

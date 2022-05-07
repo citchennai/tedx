@@ -346,4 +346,8 @@
         font-size: 1rem;
         font-family: "Encode Sans";
     }
+    .all-image-organizers
+    {
+        width: 100%;
+    }
 }

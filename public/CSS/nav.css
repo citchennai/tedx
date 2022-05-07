@@ -175,3 +175,15 @@
 		background: transparent;
 	}
 }
+
+
+@media (max-width : 400px) {
+	.nav > .nav-header > .nav-title
+	{
+		padding: 0;
+	}
+	.nav .nav-title img
+	{
+		margin-top: 1rem !important;
+	}
+}
