@@ -1,3 +1,21 @@
+const hero = document.querySelector('.hero');
+const largeHero = document.querySelectorAll('.hero .large');
+const smallHero = document.querySelectorAll('.hero .small');
+
+const parallax = (args, e) => {
+	args.forEach((arg) => {
+		const speed = arg.getAttribute('data-speed');
+		const x = (e.pageX * speed) / 100;
+		const y = (e.pageY * speed) / 100;
+		arg.style.transform = `translateX(${x}px) translateY(${y}px)`;
+	});
+};
+
+hero.addEventListener('mousemove', function (e) {
+	parallax(largeHero, e);
+	parallax(smallHero, e);
+});
+
 const onloadGsap = (className1, className2) => {
 	gsap
 		.timeline()
@@ -33,156 +51,85 @@ onloadGsap(
 	'.hero .bottom .bottom-right-2 .small'
 );
 
-// gsap
-// 	.timeline({
-// 		scrollTrigger: {
-// 			trigger: '.begins',
-// 			start: 'top 60%'
-// 		}
-// 	})
-// 	.to(
-// 		'.begins .bottom div .span5',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'-=5'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span4',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>-.2'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span4',
-// 		{
-// 			duration: 1,
-// 			y: '-200%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span3',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>-.2'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span3',
-// 		{
-// 			duration: 1,
-// 			y: '-200%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span2',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>-.2'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span2',
-// 		{
-// 			duration: 1,
-// 			y: '-200%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span1',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>-.2'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span1',
-// 		{
-// 			duration: 1,
-// 			y: '-200%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>'
-// 	)
-// 	.to(
-// 		'.begins .bottom div .span0',
-// 		{
-// 			duration: 1,
-// 			y: '-100%',
-// 			ease: 'slow(0.7, 0.7, false)'
-// 		},
-// 		'>'
-// 	)
-// 	.to('.begins .bottom', { duration: 1, autoAlpha: 0, ease: 'power2.out' }, '>')
-// 	.from(
-// 		'.begins .top',
-// 		{ duration: 3, autoAlpha: 0, ease: 'power2.out' },
-// 		'>+1'
-// 	);
+// const eventDay = moment('25-05-2022');
+// const now = moment();
+// const timeSpan = eventDay.diff(now);
 
-const deadline = '2022-01-30';
+// let dayField = document.querySelector('#hc-days');
+// let hourField = document.querySelector('#hc-hours');
+// let minuteField = document.querySelector('#hc-minutes');
+// let secondField = document.querySelector('#hc-seconds');
 
-function getTimeRemaining(endtime) {
-	const total = Date.parse(endtime) - Date.parse(new Date());
-	const seconds = Math.floor((total / 1000) % 60);
-	const minutes = Math.floor((total / 1000 / 60) % 60);
-	const hours = Math.floor((total / (1000 * 60 * 60)) % 24);
-	const days = Math.floor(total / (1000 * 60 * 60 * 24));
+// let interval;
 
-	return {
-		total,
-		days,
-		hours,
-		minutes,
-		seconds
-	};
-}
+// // Convert to milisecond
+// const second = 1000;
+// const minute = second * 60;
+// const hour = minute * 60;
+// const day = hour * 24;
 
-function initializeClock(clas, endtime) {
-	const clock = document.querySelector(clas);
-	const timeinterval = setInterval(() => {
-		const t = getTimeRemaining(endtime);
-		clock.innerHTML =
-			`${t.days.toString().length == 1 ? '0' + t.days : t.days}` +
-			' : ' +
-			`${t.hours.toString().length == 1 ? '0' + t.hours : t.hours}` +
-			' : ' +
-			`${t.minutes.toString().length == 1 ? '0' + t.minutes : t.minutes}` +
-			' : ' +
-			`${t.seconds.toString().length == 1 ? '0' + t.seconds : t.seconds}`;
-		if (t.total <= 0) {
-			clearInterval(timeinterval);
-			gsap
-				.timeline()
-				.to('.begins .bottom', {
-					duration: 1,
-					autoAlpha: 0,
-					ease: 'power2.out'
-				})
-				.from(
-					'.begins .top',
-					{ duration: 3, autoAlpha: 0, ease: 'power2.out' },
-					'>+1'
-				);
+// const countDownFn = () => {
+// 	const today = moment();
+// 	console.log(today);
+// 	const timeSpan = eventDay.diff(today);
+
+// 	if (timeSpan <= -today) {
+// 		console.log('Unfortunately we have past the event day');
+// 		clearInterval(interval);
+// 		return;
+// 	} else if (timeSpan <= 0) {
+// 		console.log('Today is the event day');
+// 		clearInterval(interval);
+// 		return;
+// 	} else {
+// 		const days = Math.floor(timeSpan / day);
+// 		const hours = Math.floor((timeSpan % day) / hour);
+// 		const minutes = Math.floor((timeSpan % hour) / minute);
+// 		const seconds = Math.floor((timeSpan % minute) / second);
+// 		dayField.innerHTML = days;
+// 		hourField.innerHTML = hours;
+// 		minuteField.innerHTML = minutes;
+// 		secondField.innerHTML = seconds;
+// 	}
+// };
+
+// interval = setInterval(countDownFn, second);
+
+let dayField = document.querySelector('#hc-days');
+let hourField = document.querySelector('#hc-hours');
+let minuteField = document.querySelector('#hc-minutes');
+let secondField = document.querySelector('#hc-seconds');
+(function () {
+	var timeElement, eventTime, currentTime, duration, interval, intervalId;
+
+	interval = 1000; // 1 second
+
+	// get time element
+	timeElement = document.querySelector('time');
+	// calculate difference between two times
+	eventTime = moment.tz('2022-05-25T00:00:00', 'America/Los_Angeles');
+	// based on time set in user's computer time / OS
+	currentTime = moment.tz();
+	// get duration between two times
+	duration = moment.duration(eventTime.diff(currentTime));
+
+	// loop to countdown every 1 second
+	setInterval(function () {
+		// get updated duration
+		duration = moment.duration(duration - interval, 'milliseconds');
+
+		// if duration is >= 0
+		if (duration.asSeconds() <= 0) {
+			clearInterval(intervalId);
+			// hide the countdown element
+			// timeElement.classList.add('hidden');
+			console.log('Event Day');
+		} else {
+			// otherwise, show the updated countdown
+			dayField.innerHTML = duration.days();
+			hourField.innerHTML = duration.hours();
+			minuteField.innerHTML = duration.minutes();
+			secondField.innerHTML = duration.seconds();
 		}
-	}, 1000);
-}
-
-initializeClock('.begins .bottom', deadline);
+	}, interval);
+})();
