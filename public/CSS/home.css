@@ -74,6 +74,7 @@ body {
     width: 60%;
     height: 65%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -651,7 +652,12 @@ body {
     }
 
     .begins {
-        height: 50vh;
+        height: fit-content;
+    }
+
+    .hero-countdown-container {
+        height: fit-content;
+        padding-bottom: 10%;
     }
 
     .begins .bottom,
@@ -686,10 +692,6 @@ body {
         font-weight: 600;
         transform: translate(-45%, 20%);
     }
-    .begins {
-        height: calc(50vh - 2.5rem);
-    }
-
     .about {
         padding: 5rem 4rem;
     }
