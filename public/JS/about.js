@@ -1,32 +1,3 @@
-// function myFunction(x) {
-//     if (x.matches) { // If media query matches
-//         // document.body.style.backgroundColor = "yellow";
-//     } else {
-//         gsap.registerPlugin(ScrollTrigger);
-
-//         let sections = gsap.utils.toArray(".heading-div");
-
-//         gsap.to(sections, {
-//             xPercent: -100 * (sections.length - 1),
-//             ease: "none",
-//             scrollTrigger: {
-//                 trigger: ".container",
-//                 pin: true,
-//                 scrub: 1,
-//                 end: "+=3500",
-//             }
-//         });
-//     }
-// }
-
-// var x = window.matchMedia("(max-width: 700px)")
-// myFunction(x) // Call listener function at run time
-// x.addListener(myFunction)
-
-
-
-
-
 gsap
     .timeline({
         scrollTrigger: {
