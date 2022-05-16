@@ -173,8 +173,149 @@ section {
 .countdown-poster img {
 	/* width: 100%;
     height: 100%; */
+	width: 80%;
 	cursor: pointer;
 	border-radius: 16px;
 	object-fit: contain;
+	box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+}
+.first-event {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2% 5%;
+}
+
+.first-poster {
+	position: relative;
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* background: rgba(255, 255, 255, 0.41); */
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.3px);
+}
+
+.first-poster span {
+	position: absolute;
+	width: 12%;
+	height: 18%;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.41);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.3px);
+	box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
+	z-index: 5;
+}
+
+.first-poster span:nth-child(1) {
+	top: 1%;
+	left: -5%;
+	animation: 3s span1 ease-in-out infinite alternate;
+}
+
+.first-poster.box1 span:nth-child(1) {
+	animation: 3s span1 ease-in-out infinite alternate-reverse;
+	transform: translateY(100%);
+}
+
+.first-poster span:nth-child(2) {
+	top: 1%;
+	animation: 3s span2 ease-in-out infinite alternate;
+	right: -5%;
+	transform: translateY(100%);
+}
+
+.first-poster span:nth-child(3) {
+	bottom: -5%;
+	animation: 3s span3 ease-in-out infinite alternate;
+	left: -5%;
+}
+
+.first-poster span:nth-child(4) {
+	animation: 3s span4 ease-in-out infinite alternate;
+	bottom: -5%;
+	right: -5%;
+}
+
+@keyframes span1 {
+	0% {
+		top: -5%;
+		left: -5%;
+	}
+	50% {
+		top: 1%;
+		left: -5%;
+	}
+	100% {
+		top: -5%;
+		left: -5%;
+	}
+}
+
+@keyframes span2 {
+	0% {
+		top: 1%;
+		right: -5%;
+	}
+	50% {
+		top: -5%;
+		right: -5%;
+	}
+	100% {
+		top: 1%;
+		right: -5%;
+	}
+}
+
+@keyframes span3 {
+	0% {
+		bottom: -5%;
+		left: -5%;
+	}
+	50% {
+		bottom: 1%;
+		left: -5%;
+	}
+	100% {
+		bottom: -5%;
+		left: -5%;
+	}
+}
+
+@keyframes span4 {
+	0% {
+		bottom: 1%;
+		right: -5%;
+	}
+	50% {
+		bottom: -5%;
+		right: -5%;
+	}
+	100% {
+		bottom: 1%;
+		right: -5%;
+	}
+}
+
+.first-poster img {
+	/* width: 100%;
+    height: 100%; */
+	cursor: pointer;
+	border-radius: 16px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 	box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
 }

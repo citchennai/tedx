@@ -95,7 +95,8 @@
 }
 
 .join {
-	background-color: #f1ff39;
+	background-color: #ec1015;
+	color: white !important;
 	border-radius: 8px;
 }
 

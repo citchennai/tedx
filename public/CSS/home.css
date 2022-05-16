@@ -49,7 +49,7 @@
 }
 
 .nav .nav-links a.join {
-    color: black !important;
+    color: white !important;
     padding: 0.5rem 1.5rem;
 }
 
@@ -196,8 +196,8 @@ body {
 
 .about .bottom div a {
     text-decoration: none;
-    color: black;
-    background: #f1ff39;
+    color: white;
+    background: #ec1015;
     padding: 0.5rem 2rem;
     box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
     border-radius: 5px;
@@ -309,13 +309,13 @@ body {
 }
 
 .past-events .card a {
-    background: #f1ff39;
+    background: #ec1015;
     padding: 0.5rem 2rem;
     box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
     border-radius: 5px;
     font-weight: 700;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .past-events h2 {
@@ -430,8 +430,8 @@ body {
 }
 
 .our-speakers > div > .content a {
-    background-color: #f1ff39;
-    color: black;
+    background-color: #ec1015;
+    color: white;
     font-weight: 700;
     text-decoration: none;
     padding: 0.5rem 2rem;

@@ -54,7 +54,7 @@ body {
 }
 
 .nav .nav-links a.join {
-  color: black !important;
+  color: white !important;
   padding: 0.5rem 1.5rem;
 }
 
@@ -192,7 +192,7 @@ body {
 
 .heading {
   color: var(--heading);
-  font-size: 40px;
+  font-size: 30px;
   font-family: "Encode Sans", sans-serif;
 }
 .heading-left-div {
