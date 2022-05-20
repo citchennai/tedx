@@ -319,3 +319,36 @@ section {
 	object-fit: cover;
 	box-shadow: 0 4px 30px rgba(255, 255, 255, 0.5);
 }
+
+
+@media (max-width: 500px) {
+	.countdown-event
+	{
+		height: 50vh;
+	}
+	.countdown-poster img
+	{
+		width: 100%;
+	}
+
+	.countdown-poster
+	{
+		width: 95%;
+		height: 45%;
+	}
+	.countdown-poster span {
+		display: none;
+	}
+	.first-event
+	{
+		height: 50vh;
+	}
+	.first-poster
+	{
+		width: 90%;
+		height: 70%;
+	}
+	.first-poster span {
+		display: none;
+	}
+}

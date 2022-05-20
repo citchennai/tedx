@@ -438,6 +438,16 @@ body {
     box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
     border-radius: 5px;
 }
+.button-join-now {
+    background-color: #ec1015;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    box-shadow: 2px 2px 5px rgb(0 0 0 / 50%);
+    border-radius: 5px;
+    margin-bottom: 8%;
+}
 
 .our-speakers .center .card:nth-of-type(1) {
     width: 45%;
@@ -777,7 +787,7 @@ body {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .nav > .nav-header {
         width: 13rem;
     }
