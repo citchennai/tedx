@@ -12,34 +12,50 @@
 	align-items: center;
 }
 
-.pop-up-div {   
+.pop-up-div {
 	position: relative;
-	width: 60%;
-	height: 60%;
-	background-color: white;
+	width: 55%;
+	background-color: #1e1e1e;
+	color: #f1f1f1;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-    padding: 5%;
-    font-size: 1.5rem;
-    border-radius: 20px;
+	padding: 2%;
+	font-size: 1.5rem;
+	border-radius: 20px;
+	box-shadow: 0 0 60px #ec1015;
+	text-align: center;
 }
 
-
-.close-button
-{
-    cursor: pointer;
-    position: absolute;
-    top: 5%;
-    right: 5%;
+.close-button {
+	cursor: pointer;
+	position: absolute;
+	top: 5%;
+	right: 5%;
 }
 
+.join-us-button {
+	background-color: #ec1015;
+	text-decoration: none;
+	color: white;
+	border: none;
+	font-weight: 700;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 1.5rem;
+	margin-top: 4%;
+	transform: scale(1.2);
+}
 
 @media (max-width: 768px) {
-    .pop-up-div
-    {
-        width: 95%;
-        height: 70%;
-    }
+	.pop-up-div {
+		width: 95%;
+		height: fit-content;
+		font-size: 1rem;
+	}
+	.close-button {
+		top: -12%;
+	}
 }
